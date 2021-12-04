@@ -145,9 +145,20 @@ footer p {
     text-align: center;
 }
 
+.redesSociales1 {
 
+    display: flex;
+    justify-content: center;
+    
 
-.redesSociales {
+}
+
+.instagram {
+
+    margin-right: 4px;
+}
+
+.redesSociales2 {
 
     
     
@@ -156,21 +167,18 @@ footer p {
    position: fixed;
    
    left: 0px;
-   right: 12px;
-   bottom: 12px;
-   border: solid 3px crimson; 
-    
-   
-   
+   right: 20px;
+   bottom: 18px;
+  
+ 
     
 }
 
 .whatsapp {
 
     transition: all 1s;
-    margin-left: 2px;
-    margin-bottom: 2px;
-    border: solid 3px crimson;
+   
+    
 }
 .whatsapp:hover {
 
