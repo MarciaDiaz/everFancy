@@ -155,14 +155,30 @@ footer p {
    justify-content: end;
    position: fixed;
    
-   left: 0;
-   right: 0;
-   bottom: 0;
-    
+   left: 0px;
+   right: 12px;
+   bottom: 12px;
+   border: solid 3px crimson; 
     
    
    
     
+}
+
+.whatsapp {
+
+    transition: all 1s;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    border: solid 3px crimson;
+}
+.whatsapp:hover {
+
+    transform: scale(1.5);
+  
+
+
+
 }
 
 
