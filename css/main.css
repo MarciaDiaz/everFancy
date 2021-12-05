@@ -75,8 +75,14 @@ header nav ul li{
     list-style-type: none;
     display: inline-block;
     color: black;
+    transition: all;
     
    
+}
+
+.menu li:hover{
+
+    transform: scale(2);
 }
 
 h1 {
