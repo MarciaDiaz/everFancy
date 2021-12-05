@@ -164,12 +164,28 @@ footer p {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    
 
 }
+
+
 
 .instagram {
 
     margin-right: 4px;
+    transition: all 1s;
+}
+.instagram:hover{
+    transform: scale(1.5);
+}
+
+.correoElectronico {
+
+    transition: all 1s;
+}
+
+.correoElectronico:hover {
+    transform: scale(1.5);
 }
 
 .redesSociales2 {
@@ -187,6 +203,8 @@ footer p {
  
     
 }
+
+
 
 .whatsapp {
 
@@ -450,6 +468,9 @@ footer {
 .contenidoQuienSoy {
 
     height: 800px;
+    margin: 0 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
 }
 
 
@@ -658,7 +679,7 @@ margin-bottom: 5px ;
 .yogaBeneficios
  {
  
-    border: solid 2px blueviolet;
+    
     margin-left: 10px ;
     margin-right: 10px ;
     align-items: center;
@@ -677,7 +698,7 @@ margin-bottom: 5px ;
 .yogaBeneficios p {
 
  
-    border: solid 2px blueviolet;
+  
 
 font-size: 19px;
 color: rgb(192, 147, 162);
@@ -716,10 +737,71 @@ margin-top: 70px;
     margin-bottom: 50px;
 } 
 
+.Titulo{
 
+    animation-name: expandir;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
+}
 
+@keyframes expandir {
+    
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
 
+.subtituloPropiedades{
+
+    animation-name: aparecer ;
+    animation-duration: 2s;
+    animation-iteration-count: initial ;
+
+}
+
+.yogaTitulo{
+
+    animation-name: aparecer ;
+    animation-duration: 2s;
+    animation-iteration-count: initial ;
+
+}
+
+.contactoTitulo{
+
+    animation-name: aparecer ;
+    animation-duration: 2s;
+    animation-iteration-count: initial ;
+
+}
+
+.quiensoyTituloe{
+
+    animation-name: aparecer ;
+    animation-duration: 2s;
+    animation-iteration-count: initial ;
+
+}
+.
+
+@keyframes aparecer {
+
+    0% {
+        opacity:0 ;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+    
+}
 
 /*-------MEDIA QUERIES-----*/
 
@@ -799,7 +881,7 @@ margin-top: 70px;
 
     .ContenidoDelTitulo p {
         
-        font-size: 13px;
+        font-size: 15px;
         border: black 2px dotted;
         margin: 0 20px;
         width: auto;
@@ -810,7 +892,7 @@ margin-top: 70px;
     
     footer p {
     
-        font-size: 13px;
+        font-size: 15px;
     }
     
  
@@ -823,6 +905,10 @@ margin-top: 70px;
 
 /*----PROPIEDADES----*/
 
+    .propiedadesFondo{
+
+        margin: 0px;
+    }
 
     .seccionSubtitulo {
 
@@ -835,7 +921,7 @@ margin-top: 70px;
     .seccionSubtitulo p {
  
      color: blueviolet;
-     font-size: 13px;
+     font-size: 15px;
    
     }
 
@@ -854,7 +940,10 @@ margin-top: 70px;
  
  /*----OTRAS TERAPIAS----*/
 
+    .seccionSubtitulo2 {
 
+        margin: 0px;
+    }
 
 
     .consultaYoga {
@@ -862,7 +951,7 @@ margin-top: 70px;
     display: grid;
     grid-template-columns: AUTO auto;
     grid-template-rows: auto auto;
-    font-size: 13PX;
+    font-size: 15PX;
    
     }
 
@@ -922,6 +1011,14 @@ margin-top: 70px;
 /*--------CONTACTO------*/
 
 
+.contenedor-contacto {
+
+    margin: 0;
+    
+
+}
+
+
     .ContactoGrilla {
 
     
@@ -936,7 +1033,16 @@ margin-top: 70px;
 
     .ContactoGrilla div {
 
-    font-size: 13PX;
+    font-size: 15PX;
     text-align: start;
     }
+}
+
+/*-------QUIEN SOY------*/
+
+.contenidoQuienSoy {
+
+    
+    margin: 0;
+    
 }
