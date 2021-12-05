@@ -16,9 +16,34 @@ body{
 
 /*-------INDEX-------*/
 
+#navbar1{
+
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    
+    
+}
+
+.navbar  {
+
+    
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    border: solid 2px rgb(230, 201, 211);
+    
+    
+   
+}
+
+
 
 .contenedores2 {
 
+    margin: 0 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
     display: grid;
     grid-template-areas: 
     "header header header"

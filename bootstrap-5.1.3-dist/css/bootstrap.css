@@ -4007,10 +4007,10 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  position: relative;
+  position: end;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -4037,7 +4037,8 @@ textarea.form-control-lg {
 }
 .navbar-nav {
   display: flex;
-  flex-direction: column;
+  justify-content: end;
+  
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4045,9 +4046,11 @@ textarea.form-control-lg {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  justify-content: end;
 }
 .navbar-nav .dropdown-menu {
   position: static;
+  justify-content: end;
 }
 
 .navbar-text {
