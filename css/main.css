@@ -739,13 +739,13 @@ margin-top: 70px;
 
 .Titulo{
 
-    animation-name: expandir;
+    animation-name: aparecer;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 
 }
 
-@keyframes expandir {
+@keyframes aparecer{
     
     0%{
         transform: scale(1);
@@ -753,7 +753,7 @@ margin-top: 70px;
     50%{
         transform: scale(1.3);
     }
-    100%{
+    0%{
         transform: scale(1.5);
     }
 }
