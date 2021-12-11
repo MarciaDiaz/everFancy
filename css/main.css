@@ -45,23 +45,7 @@ body{
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "div div div"
-    "footer footer"
-    ;
-  }
-
-header {
-
-    grid-area: header;
-}
-.contenedores2{
-
-    grid-area: div;
-}
-footer {
-    grid-area: footer;
+    
 }
 
 
