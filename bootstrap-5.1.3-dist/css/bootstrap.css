@@ -4102,7 +4102,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;

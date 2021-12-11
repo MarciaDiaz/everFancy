@@ -888,7 +888,8 @@ margin-top: 70px;
      
     }
 
-   
+    .navbarcon .navbar-expand
+    {-sm|-md|-lg|-xl|-xxl}
     
     footer p {
     
