@@ -52,7 +52,7 @@ body{
 
 header {
 
-   /*border: 1px solid  black;*/
+   /*border: 3px solid  black;*/
     background-image: url(../imagenes/Fondorosa.jpg);
     grid-area: header;  
  }
@@ -141,6 +141,7 @@ footer {
 footer p {
 
     text-align: center;
+    margin-top: 20px;
 }
 
 .redesSociales1 {
@@ -179,10 +180,11 @@ footer p {
    display: flex;
    justify-content: end;
    position: fixed;
+ 
    
    left: 0px;
    right: 20px;
-   bottom: 18px;
+   bottom: 150px;
   
  
     
@@ -198,7 +200,7 @@ footer p {
 }
 .whatsapp:hover {
 
-    transform: scale(1.5);
+    transform: scale(1.3);
   
 
 
@@ -220,35 +222,6 @@ footer p {
 
 }
 
-.todo-propiedades{
-
-    display: grid;
-    grid-template-areas: 
-
-    "header header header"
-    "h2 h2 h2"
-    "div div div"
-    "section section section"
-    "footer footer footer"
-    ;
-
-}
-
-header {
-    grid-area: header;  
-}
-.subtituloPropiedades{
-    grid-area: h2;
-}
-.piedrasimagen{
-    grid-area: div;
-}
-.seccionSubtitulo {
-    grid-area: section;
-}
-footer{
-    grid-area: footer;
-}
 
 
 
@@ -263,12 +236,12 @@ footer{
     margin-left: 10px ;
 }
 
-.subtituloPropiedades {
 
-padding: 50px;
-
+.botonPropiedades {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-
 
 
 .item {
@@ -351,15 +324,7 @@ margin-left: 30px;
 
 
 
-.todo-contacto{
-    display: grid;
-    grid-template-areas:
-    "header header header"
-    "h1 h1 h1"
-    "section section section"
-    "footer footer footer"
-    ;
-}
+
 .contenedor-contacto {
 
     margin: 0 100px;
@@ -371,19 +336,7 @@ margin-left: 30px;
 
 
 
-header {
-    grid-area: header;  
-}
-.Titulo {
-    grid-area: h1;
-}
-.contenedor-contacto {
 
-    grid-area: section;
-}
-footer {
-    grid-area: footer;  
-}
 
 
 
@@ -476,33 +429,13 @@ footer {
 
 }
 
-.todo-otrasTerapias{
 
-    display: grid;
-    grid-template-areas: 
-
-    "header header header"
-    "section section section"
-    "footer footer footer"
-    ;
-
-}
-
-header {
-    grid-area: header;  
-}
-.seccionSubtitulo2 {
-    grid-area: section;
-}
-footer{
-    grid-area: footer;
-}
 
 
 .seccionSubtitulo2 {
 
     height: auto;
-    
+    padding: 50px;
     
 }
 
@@ -708,7 +641,8 @@ color: rgb(223, 176, 192);
 display: flex;
 justify-content: center;
 margin-bottom: 80px;
-margin-top: 70px;
+margin-top: 0px;
+padding: 50px;
 
 }
 
@@ -872,9 +806,7 @@ margin-top: 70px;
      
     }
 
-    .navbarcon .navbar-expand
-    {-sm|-md|-lg|-xl|-xxl}
-    
+
     footer p {
     
         font-size: 15px;
