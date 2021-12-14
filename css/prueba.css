@@ -1,3 +1,111 @@
+/*-------MEDIA QUERIES-----*/
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    width: auto; }
+  nav {
+    display: flex;
+    justify-content: end;
+    background-color: none; }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfb0c0;
+    padding: 0; }
+  a {
+    text-decoration: none;
+    font-size: 15px; }
+  nav a {
+    border: black solid 2px;
+    text-align: center; }
+  /*-------INDEX-------*/
+  .contenedores2 {
+    width: auto;
+    margin: 0px; }
+  .Titulo {
+    margin-bottom: 0px;
+    margin-top: 40px;
+    font-size: 30px; }
+  .loto img {
+    height: 150px;
+    width: auto; }
+  .ContenidoDelTitulo p {
+    font-size: 15px;
+    border: black 2px dotted;
+    margin: 0 20px;
+    width: auto; }
+  footer p {
+    font-size: 15px; }
+  .redesSociales img {
+    height: 20px; }
+  /*----PROPIEDADES----*/
+  .propiedadesFondo {
+    margin: 0px; }
+  .seccionSubtitulo {
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 100px; }
+  .seccionSubtitulo p {
+    color: blueviolet;
+    font-size: 15px; }
+  .seccionSubtitulo img {
+    height: 70px;
+    width: 70px; }
+  .piedrasimagen {
+    height: 100px; }
+  /*----OTRAS TERAPIAS----*/
+  .seccionSubtitulo2 {
+    margin: 0px; }
+  .consultaYoga {
+    display: grid;
+    grid-template-columns: AUTO auto;
+    grid-template-rows: auto auto;
+    font-size: 15PX; }
+  .yogaLista li {
+    display: flex;
+    flex-direction: column; }
+  .yogaLista {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column; }
+  .yogaLista li {
+    border: 2px solid #dfb0c0;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: black;
+    text-align: center; }
+  .yogaBeneficios p {
+    font-size: 16px;
+    color: black; }
+  h2 {
+    font-size: 20px; }
+  .yogaImagen2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px; }
+  /*--------CONTACTO------*/
+  .contenedor-contacto {
+    margin: 0; }
+  .ContactoGrilla {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto 150px auto; }
+  .ContactoGrilla div {
+    font-size: 15PX;
+    text-align: start; } }
+
+/*-------QUIEN SOY------*/
+.contenidoQuienSoy {
+  margin: 0; }
+
+h1 {
+  background-color: #dfb0c0; }
+
 body {
   /*border: 2px solid black; */
   background-color: white;
@@ -191,10 +299,7 @@ footer p {
 /*----QUIEN SOY-----*/
 .todo-quienSoy {
   display: grid;
-  grid-template-areas: "header header header"
- "h1 h1 h1"
- "section section section"
- "footer footer footer"; }
+  grid-template-areas: "header header header" "h1 h1 h1" "section section section" "footer footer footer"; }
 
 header {
   grid-area: header; }
@@ -236,9 +341,7 @@ footer {
   justify-content: center;
   margin-bottom: 5px;
   margin-top: 50px;
-  grid-template-areas: "consultaYoga-consulta consultaYoga-consulta"
- "consultaYoga-consultatext consultaYoga-consultatext"
- "consultaYoga-email consultaYoga-emailtext"; }
+  grid-template-areas: "consultaYoga-consulta consultaYoga-consulta" "consultaYoga-consultatext consultaYoga-consultatext" "consultaYoga-email consultaYoga-emailtext"; }
 
 .consultaYoga-consulta {
   grid-area: consultaYoga-consulta; }
@@ -271,9 +374,7 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "yoga1 yoga2 yoga3"
- "yoga4 yoga5 yoga6"
- "yoga7 yoga8 yoga8";
+  grid-template-areas: "yoga1 yoga2 yoga3" "yoga4 yoga5 yoga6" "yoga7 yoga8 yoga8";
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -387,108 +488,3 @@ h2 {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-/*-------MEDIA QUERIES-----*/
-@media screen and (max-width: 768px) {
-  body {
-    padding: 0px;
-    margin: 0px;
-    width: auto; }
-  nav {
-    display: flex;
-    justify-content: end;
-    background-color: none; }
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    background-color: #dfb0c0;
-    padding: 0; }
-  a {
-    text-decoration: none;
-    font-size: 15px; }
-  nav a {
-    border: black solid 2px;
-    text-align: center; }
-  /*-------INDEX-------*/
-  .contenedores2 {
-    width: auto;
-    margin: 0px; }
-  .Titulo {
-    margin-bottom: 0px;
-    margin-top: 40px;
-    font-size: 30px; }
-  .loto img {
-    height: 150px;
-    width: auto; }
-  .ContenidoDelTitulo p {
-    font-size: 15px;
-    border: black 2px dotted;
-    margin: 0 20px;
-    width: auto; }
-  footer p {
-    font-size: 15px; }
-  .redesSociales img {
-    height: 20px; }
-  /*----PROPIEDADES----*/
-  .propiedadesFondo {
-    margin: 0px; }
-  .seccionSubtitulo {
-    font-size: 17px;
-    margin: 0;
-    margin-bottom: 100px; }
-  .seccionSubtitulo p {
-    color: blueviolet;
-    font-size: 15px; }
-  .seccionSubtitulo img {
-    height: 70px;
-    width: 70px; }
-  .piedrasimagen {
-    height: 100px; }
-  /*----OTRAS TERAPIAS----*/
-  .seccionSubtitulo2 {
-    margin: 0px; }
-  .consultaYoga {
-    display: grid;
-    grid-template-columns: AUTO auto;
-    grid-template-rows: auto auto;
-    font-size: 15PX; }
-  .yogaLista li {
-    display: flex;
-    flex-direction: column; }
-  .yogaLista {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column; }
-  .yogaLista li {
-    border: 2px solid #dfb0c0;
-    font-size: 13px;
-    margin-bottom: 5px;
-    color: black;
-    text-align: center; }
-  .yogaBeneficios p {
-    font-size: 16px;
-    color: black; }
-  h2 {
-    font-size: 20px; }
-  .yogaImagen2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 20px; }
-  /*--------CONTACTO------*/
-  .contenedor-contacto {
-    margin: 0; }
-  .ContactoGrilla {
-    margin-right: 10px;
-    margin-left: 10px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto 150px auto; }
-  .ContactoGrilla div {
-    font-size: 15PX;
-    text-align: start; } }
-
-/*-------QUIEN SOY------*/
-.contenidoQuienSoy {
-  margin: 0; }
