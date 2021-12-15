@@ -1,0 +1,39 @@
+.todo-quienSoy{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "h1 h1 h1"
+    "section section section"
+    "footer footer footer"
+    ;
+}
+header {
+    grid-area: header;  
+}
+.Titulo {
+    grid-area: h1;
+}
+.contenidoQuienSoy {
+    grid-area: section;
+}
+footer {
+    grid-area: footer;  
+}
+
+
+
+
+.contenidoQuienSoy {
+
+    height: 800px;
+    margin: 0 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
+
+
+
+.carrousel1 {
+
+    margin: 1px 200px;
+}

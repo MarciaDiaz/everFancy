@@ -8,3 +8,96 @@
     margin-right: 10px ;
     margin-left: 10px ;
 }
+
+ 
+.propiedadesFondo{
+ 
+    margin: 0 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+
+
+}
+
+
+
+
+
+
+.botonPropiedades {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.item {
+
+    background-color:  rgb(236, 222, 222)
+ 
+    
+}
+
+
+.seccionSubtitulo img {
+
+display: block;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 30px;
+margin-left: 30px;
+
+
+}
+
+.seccionSubtitulo p {
+
+    text-align: center;
+    margin: auto;
+    /*color: blueviolet;*/
+    padding: 50px 50px;
+    vertical-align: top;
+    top: 10px;
+   
+    
+}
+
+.seccionSubtitulo img {
+
+    float: left;
+}
+
+
+
+
+.item2 {
+
+    
+    background-color:rgb(230, 201, 211)
+
+}
+
+.item3 {
+
+    background-color: rgb(236, 222, 222)
+
+
+}
+
+.item4 {
+
+
+    background-color: rgb(230, 201, 211)
+
+}
+
+
+.piedrasimagen {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    height: 300px;
+
+}
+
