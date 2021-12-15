@@ -1,5 +1,17 @@
+.seccionSubtitulo {
+  border: 1px solid black;
+  font-size: 17px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-right: 10px;
+  margin-left: 10px; }
+
 h1 {
-  color: #dfb0c0; }
+  color: #76d68e;
+  background-color: #76d68e; }
+
+h2 {
+  background-color: #76d68e; }
 
 body {
   /*border: 2px solid black; */
@@ -115,14 +127,6 @@ footer p {
   margin: 0 100px;
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
-
-.seccionSubtitulo {
-  border: 1px solid black;
-  font-size: 17px;
-  margin-top: 100px;
-  margin-bottom: 150px;
-  margin-right: 10px;
-  margin-left: 10px; }
 
 .botonPropiedades {
   display: flex;
