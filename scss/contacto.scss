@@ -1,0 +1,47 @@
+.contenedor-contacto {
+ 
+    margin: 0 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    height: 800px;
+
+}
+
+
+
+
+
+
+
+
+
+.ContactoGrilla {
+
+
+    display: grid;
+    grid-template-columns: 200PX 350PX;
+    grid-template-rows: auto auto auto 150px auto;
+    justify-content: center; 
+    margin-bottom: 100px;
+}
+
+.ContactoGrilla div {
+
+    background-color:rgb(236, 222, 222) ;
+    border: solid 2px  rgb(230, 201, 211)  ;
+    
+}
+
+.enviarYborrar {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.Consulta1  input{
+
+   width: 90%;
+   height: 90%;
+}
+
