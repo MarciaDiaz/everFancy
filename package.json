@@ -11,7 +11,7 @@
 
 
     "build-bootstrap": "node-sass --include-path scss scss/bootstrap/bootstrap.scss css/bootstrap.css",
-    "watch-boostrap": "nodemon -e scss -x \"npm run build-bootstrap\""
+    "watch-bootstrap": "nodemon -e scss -x \"npm run build-bootstrap\""
 
 
 
