@@ -8,4 +8,17 @@
 
 
 
+$redes: (
 
+instagram: rgb(151, 29, 125)
+whattsapp: rgb(61, 185, 61)
+correo: rgb(255, 55, 55)
+
+);
+
+@each $red, $color in $redes {
+    
+    .red-#{$red}{
+        color: $color;
+    }
+}
