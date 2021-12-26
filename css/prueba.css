@@ -492,3 +492,11 @@ h2 {
 
 .redesSociales2-correo {
   color: #ff3737; }
+
+.boton, .botonPropiedades {
+  border: solid black 1px;
+  background-image: url(../imagenes/Fondorosa.jpg);
+  padding: 10px 20px; }
+
+.botonPropiedades {
+  color: purple; }
