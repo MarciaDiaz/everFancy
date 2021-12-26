@@ -38,3 +38,15 @@ correo: rgb(255, 55, 55),
     color:purple;
 
 }
+
+@mixin size($alto, $ancho, $padding) {
+
+    height: $alto;
+    width: $ancho;
+    padding: $padding;
+    
+}
+
+.ContactoGrilla {
+    @include size(10px,5px, 25px )
+}
