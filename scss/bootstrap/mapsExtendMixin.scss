@@ -1,0 +1,43 @@
+$redes: (
+
+instagram: rgb(151, 29, 125),
+whattsapp: rgb(61, 185, 61),
+correo: rgb(255, 55, 55),
+
+);
+
+@each $red, $color in $redes {
+    
+    .redesSociales2-#{$red}{
+        color: $color;
+    }
+}
+
+
+
+
+.boton {
+
+    border: solid black 1px;
+    background-image: url(../imagenes/Fondorosa.jpg);
+    padding: 10px 20px;
+}
+.botonPropiedades {
+
+    @extend .boton;
+    color:purple;
+
+}
+
+@mixin grilla ($fondo, $borde, $letra) {
+
+    background-color: $fondo;
+    border: $borde;
+    font-size: $letra;
+    
+}
+
+.ContactoGrilla {
+
+    @include grilla ( green,3px ,arial )
+}
