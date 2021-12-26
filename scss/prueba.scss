@@ -22,3 +22,19 @@ correo: rgb(255, 55, 55),
         color: $color;
     }
 }
+
+
+
+
+.boton {
+
+    border: solid black 1px;
+    background-color: palevioletred;
+    padding: 10px 20px;
+}
+.botonPropiedades {
+
+    @extend .boton;
+    color:purple;
+
+}
