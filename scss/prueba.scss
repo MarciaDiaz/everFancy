@@ -39,14 +39,15 @@ correo: rgb(255, 55, 55),
 
 }
 
-@mixin size($alto, $ancho, $padding) {
+@mixin grilla ($fondo, $borde, $letra) {
 
-    height: $alto;
-    width: $ancho;
-    padding: $padding;
+    background-color: $fondo;
+    border: $borde;
+    font-size: $letra;
     
 }
 
 .ContactoGrilla {
-    @include size(10px,5px, 25px )
+
+    @include grilla ( yelowgreen,3px , arial )
 }

@@ -500,3 +500,8 @@ h2 {
 
 .botonPropiedades {
   color: purple; }
+
+.ContactoGrilla {
+  background-color: yelowgreen;
+  border: 3px;
+  font-size: arial; }
