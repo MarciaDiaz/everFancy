@@ -483,3 +483,25 @@ h2 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.redesSociales2-instagram {
+  color: #971d7d; }
+
+.redesSociales2-whattsapp {
+  color: #3db93d; }
+
+.redesSociales2-correo {
+  color: #ff3737; }
+
+.boton, .botonPropiedades {
+  border: solid black 1px;
+  background-image: url(../imagenes/Fondorosa.jpg);
+  padding: 10px 20px; }
+
+.botonPropiedades {
+  color: purple; }
+
+.ContactoGrilla {
+  background-color: green;
+  border: 3px;
+  font-size: arial; }
