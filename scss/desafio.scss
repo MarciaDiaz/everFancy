@@ -16,20 +16,20 @@ correo: rgb(255, 55, 55),
 
 
 
-.btn {
+.boton {
 
     border: solid black 1px;
     background-image: url(../imagenes/Fondorosa.jpg);
     padding: 10px 20px;
 }
-.btn  {
+.botonPropiedades  {
 
     @extend .boton;
     color:purple;
 
 }
 
-.
+
 
 @mixin grilla ($fondo, $borde, $letra) {
 
