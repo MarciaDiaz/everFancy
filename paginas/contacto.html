@@ -91,89 +91,64 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
 
-              
+                <form action="">
 
                     <div class="ContactoGrilla">
 
 
 
-                       
+                        <div class="nombreYapellido"><label for="nombreYapellido">Nombre y Apellido</label> </div>
+                        <div class="nombreYapellido1"> <input type="text" name="nombreYapellido" id="nombreYapellido">
+                        </div>
+
+
+                        <div class="telefono"><label for="telefono">Telefono</label> </div>
+                        <div class="telefono1"> <input type="number" name="telefono" id="telefono" required></div>
+
+                        <div class="email"> <label for="email">Email</label> </div>
+                        <div class="email1"><input type="text" name="email" id="email" required> </div>
+
+
+                        <div class="Consulta"><label for="Consulta">Consulta:</label></div>
+                        <div class="Consulta1"> <input type="text" name="Consulta" id="Consulta"> </div>
+
+                        <div class="promocion">
+                            <legend>Deseo recibir las promociones!</legend>
+                        </div>
+
+
+                        <div class="si">
+
+                            <label for="si">Por supuesto</label>
+                            <input type="radio" name="promociones" id="promociones">
+
+                            <label for="no">No, gracias</label>
+                            <input type="radio" name="promociones" id="promociones">
+
+                        </div>
 
 
                     </div>
 
 
-               
+                    <div class="enviarYborrar">
+
+
+                        <label for="Enviar"></label>
+
+                        <button type="submit" class="btn btn-outline-success">Enviar</button>
+
+                        <label for="Borrar"></label>
+
+                        <button type="reset" class="btn btn-outline-danger">Borrar</button>
+                    </div>
+
+                </form>
+
 
             </div>
 
         </section>
-
-
-
-
-
-        <section class="contenedor-contacto">
-
-            <div class="ContenidoContacto">
-
-            <div class="ContactoGrilla">
-
-        <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="text" name="email" class="form-control" id="inputEmail4" required>
-            </div>
-           
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Nombre y Apellido</label>
-              <input type="text" class="form-control" id="inputAddress" >
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">telefono </label>
-              <input type="number" class="form-control" id="inputAddress2" >
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Consulta</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-
-            <div class="promocion">
-                <legend>Deseo recibir las promociones!</legend>
-            </div>
-
-
-            <div class="si">
-
-                <label for="si">Por supuesto</label>
-                <input type="radio" name="promociones" id="promociones">
-
-                <label for="no">No, gracias</label>
-                <input type="radio" name="promociones" id="promociones">
-
-            </div>
-
-        </div>
-        
-
-
-        <div class="enviarYborrar">
-
-
-            <label for="Enviar"></label>
-
-            <button type="submit" class="btn btn-outline-success">Enviar</button>
-
-            <label for="Borrar"></label>
-
-            <button type="reset" class="btn btn-outline-danger">Borrar</button>
-        </div>
-
-            
-          </form>
-        
-    </div>
-         </section>
 
 
         <footer class="footer">
