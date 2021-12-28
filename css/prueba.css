@@ -91,13 +91,11 @@ footer {
   height: auto; }
 
 .ContactoGrilla {
-  display: grid;
-  grid-template-columns: 200PX 350PX;
-  grid-template-rows: auto auto auto 150px auto;
+  display: flex;
   justify-content: center;
   margin-bottom: 100px; }
 
-.ContactoGrilla div {
+.ContactoGrilla {
   background-color: #ecdede;
   border: solid 2px #e6c9d3; }
 

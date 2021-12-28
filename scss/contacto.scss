@@ -18,14 +18,13 @@
 .ContactoGrilla {
 
 
-    display: grid;
-    grid-template-columns: 200PX 350PX;
-    grid-template-rows: auto auto auto 150px auto;
+    display: flex;
+ 
     justify-content: center; 
     margin-bottom: 100px;
 }
 
-.ContactoGrilla div {
+.ContactoGrilla  {
 
     background-color:rgb(236, 222, 222) ;
     border: solid 2px  rgb(230, 201, 211)  ;
