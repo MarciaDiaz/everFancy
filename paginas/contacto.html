@@ -159,12 +159,12 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
         <form class="row g-3">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
+              <input type="text" name="email" class="form-control" id="inputEmail4" required>
             </div>
            
             <div class="col-12">
               <label for="inputAddress" class="form-label">Nombre y Apellido</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <input type="text" class="form-control" id="inputAddress" >
             </div>
             <div class="col-12">
               <label for="inputAddress2" class="form-label">telefono </label>
@@ -174,28 +174,39 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
               <label for="inputCity" class="form-label">Consulta</label>
               <input type="text" class="form-control" id="inputCity">
             </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
+
+            <div class="promocion">
+                <legend>Deseo recibir las promociones!</legend>
             </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
+
+
+            <div class="si">
+
+                <label for="si">Por supuesto</label>
+                <input type="radio" name="promociones" id="promociones">
+
+                <label for="no">No, gracias</label>
+                <input type="radio" name="promociones" id="promociones">
+
             </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
+
+
+        
+
+
+        <div class="enviarYborrar">
+
+
+            <label for="Enviar"></label>
+
+            <button type="submit" class="btn btn-outline-success">Enviar</button>
+
+            <label for="Borrar"></label>
+
+            <button type="reset" class="btn btn-outline-danger">Borrar</button>
+        </div>
+
+            
           </form>
         
 
