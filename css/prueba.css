@@ -92,10 +92,9 @@ footer {
 
 .ContactoGrilla {
   display: flex;
+  width: 300px;
   justify-content: center;
-  margin-bottom: 100px; }
-
-.ContactoGrilla {
+  margin-bottom: 100px;
   background-color: #ecdede;
   border: solid 2px #e6c9d3; }
 
