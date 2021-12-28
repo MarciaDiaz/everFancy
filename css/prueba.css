@@ -92,11 +92,11 @@ footer {
 
 .ContactoGrilla div {
   background-color: #ecdede;
-  border: solid 2px #e6c9d3; }
+  border: solid 2px #e6c9d3;
+  width: 500px; }
 
 .ContactoGrilla {
   display: flex;
-  width: 500px;
   justify-content: center;
   margin-bottom: 100px; }
 
