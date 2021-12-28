@@ -90,13 +90,15 @@ footer {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
   height: auto; }
 
-.ContactoGrilla {
-  display: flex;
-  width: 300px;
-  justify-content: center;
-  margin-bottom: 100px;
+.ContactoGrilla div {
   background-color: #ecdede;
   border: solid 2px #e6c9d3; }
+
+.ContactoGrilla {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  margin-bottom: 100px; }
 
 .enviarYborrar {
   display: flex;
