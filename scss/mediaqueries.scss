@@ -216,10 +216,8 @@
     
     margin-right: 10px;
     margin-left: 10px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto 150px auto;
    
+    
   
     }
 
@@ -227,6 +225,7 @@
 
     font-size: 15PX;
     text-align: start;
+    width: auto;
     }
 
 
