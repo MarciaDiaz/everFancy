@@ -52,6 +52,11 @@
   margin-bottom: 70px;
   height: 300px; }
 
+h2 {
+  display: flex;
+  text-align: center;
+  color: black; }
+
 .todo-quienSoy {
   display: grid;
   grid-template-areas: "header header header" "h1 h1 h1" "section section section" "footer footer footer"; }
