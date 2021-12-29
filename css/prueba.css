@@ -9,83 +9,65 @@
   margin: 0 100px;
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
-
-.piedra p {
-  height: 330px;
-  width: auto; }
-
-.botonPropiedades {
-  display: flex;
-  justify-content: center; }
-
-.seccionSubtitulo img {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 30px;
-  margin-left: 30px; }
-
-.seccionSubtitulo p {
-  text-align: center;
-  margin: auto;
-  /*color: blueviolet;*/
-  padding: 50px 50px;
-  vertical-align: top;
-  top: 10px; }
-
-.seccionSubtitulo .piedra {
-  border: solid black 1px;
-  margin: 2px; }
-
-.seccionSubtitulo img {
-  float: left; }
-
-.seccionSubtitulo {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9"; }
-
-.item1 {
-  grid-area: item1; }
-
-.item2 {
-  grid-area: item2; }
-
-.item3 {
-  grid-area: item3; }
-
-.item4 {
-  grid-area: item4; }
-
-.item5 {
-  grid-area: item5; }
-
-.item6 {
-  grid-area: item6; }
-
-.item7 {
-  grid-area: item7; }
-
-.item8 {
-  grid-area: item8; }
-
-.item9 {
-  grid-area: item9; }
-
-.piedrasimagen {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 70px;
-  height: 300px; }
-
-h2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  margin-top: 30px; }
+  .propiedadesFondo .seccionSubtitulo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9"; }
+  .propiedadesFondo .item1 {
+    grid-area: item1; }
+  .propiedadesFondo .item2 {
+    grid-area: item2; }
+  .propiedadesFondo .item3 {
+    grid-area: item3; }
+  .propiedadesFondo .item4 {
+    grid-area: item4; }
+  .propiedadesFondo .item5 {
+    grid-area: item5; }
+  .propiedadesFondo .item6 {
+    grid-area: item6; }
+  .propiedadesFondo .item7 {
+    grid-area: item7; }
+  .propiedadesFondo .item8 {
+    grid-area: item8; }
+  .propiedadesFondo .item9 {
+    grid-area: item9; }
+  .propiedadesFondo .piedra p {
+    height: 330px;
+    width: auto; }
+  .propiedadesFondo .botonPropiedades {
+    display: flex;
+    justify-content: center; }
+  .propiedadesFondo .seccionSubtitulo img {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    margin-left: 30px; }
+  .propiedadesFondo .seccionSubtitulo img {
+    float: left; }
+  .propiedadesFondo .seccionSubtitulo p {
+    text-align: center;
+    margin: auto;
+    /*color: blueviolet;*/
+    padding: 50px 50px;
+    vertical-align: top;
+    top: 10px; }
+  .propiedadesFondo .seccionSubtitulo .piedra {
+    border: solid black 1px;
+    margin: 2px; }
+  .propiedadesFondo .piedrasimagen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    height: 300px; }
+  .propiedadesFondo h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 30px; }
 
 .contenidoQuienSoy {
   height: auto;
@@ -105,32 +87,27 @@ h2 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
   height: auto; }
-
-.ContactoGrilla div {
-  background-color: #ecdede;
-  border: solid 2px #e6c9d3;
-  width: 500px; }
-
-.ContactoGrilla {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px; }
-
-.enviarYborrar {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px; }
-
-.enviarYborrar button {
-  margin: 10px 10px;
-  width: 60px;
-  height: 45px;
-  display: flex;
-  justify-content: center; }
-
-.Consulta1 input {
-  width: 90%;
-  height: 90%; }
+  .contenedor-contacto .ContactoGrilla {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; }
+    .contenedor-contacto .ContactoGrilla div {
+      background-color: #ecdede;
+      border: solid 2px #e6c9d3;
+      width: 500px; }
+  .contenedor-contacto .enviarYborrar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .contenedor-contacto .enviarYborrar button {
+      margin: 10px 10px;
+      width: 60px;
+      height: 45px;
+      display: flex;
+      justify-content: center; }
+  .contenedor-contacto .Consulta1 input {
+    width: 90%;
+    height: 90%; }
 
 body {
   /*border: 2px solid black; */
