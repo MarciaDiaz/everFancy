@@ -87,30 +87,18 @@ h2 {
   font-size: 20px;
   margin-top: 30px; }
 
-.todo-quienSoy {
-  display: grid;
-  grid-template-areas: "header header header" "h1 h1 h1" "section section section" "footer footer footer"; }
-
-header {
-  grid-area: header; }
-
-.Titulo {
-  grid-area: h1; }
-
 .contenidoQuienSoy {
-  grid-area: section; }
-
-footer {
-  grid-area: footer; }
-
-.contenidoQuienSoy {
-  height: 800px;
+  height: auto;
   margin: 0 100px;
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
-
-.carrousel1 {
-  margin: 1px 200px; }
+  .contenidoQuienSoy .carrousel1 {
+    margin: 1px 200px; }
+  .contenidoQuienSoy p {
+    text-align: center;
+    margin: 100px 200px;
+    font-size: 18px;
+    color: #644664; }
 
 .contenedor-contacto {
   margin: 0 100px;
