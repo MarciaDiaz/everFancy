@@ -378,18 +378,17 @@ body {
       font-size: 17px;
       margin: 0, 20px;
       margin-bottom: 100px; }
-    .propiedadesFondo p {
-      color: blueviolet;
-      font-size: 15px; }
-    .propiedadesFondo img {
-      height: 70px;
-      width: 70px; }
+      .propiedadesFondo .seccionSubtitulo p {
+        color: blueviolet;
+        font-size: 15px; }
+      .propiedadesFondo .seccionSubtitulo img {
+        height: 70px;
+        width: 70px; }
+      .propiedadesFondo .seccionSubtitulo .piedra p {
+        height: auto;
+        width: auto; }
     .propiedadesFondo .piedrasimagen {
-      height: auto;
-      width: auto; }
-    .propiedadesFondo .piedra p {
-      height: auto;
-      width: auto; }
+      height: 150px; }
   /*----OTRAS TERAPIAS----*/
   .seccionSubtitulo2 {
     margin: 0px; }

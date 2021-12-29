@@ -104,43 +104,47 @@
         .seccionSubtitulo {
 
    
-            display: inline-block;
-            background-color: white;
+                        display: inline-block;
+                        background-color: white;
             
-              font-size: 17px;
-              margin: 0, 20px;
-              margin-bottom: 100px;
-             }
-             p {
+                        font-size: 17px;
+                         margin: 0, 20px;
+                        margin-bottom: 100px;
+            
+                     p {
  
-                color: blueviolet;
-                font-size: 15px;
+                        color: blueviolet;
+                        font-size: 15px;
                 
               
-               }
-               img {
+                         }
+                     img {
 
-                height: 70px ;
-                width: 70px;
-            }
+                         height: 70px ;
+                        width: 70px;
+                     }
 
-            .piedrasimagen {
+          
+             
+                        .piedra p {
  
-              height: 200PX;
-              width: 200PX;
-            
-               }
-               .piedra p {
- 
-                height: auto;
-                width: auto;
+                        height: auto;
+                        width: auto;
             
                 
-            }
+                    }
+                 }
+                
         
-    }
+            .piedrasimagen {
+ 
+                height: 150px;
+                
+                
 
-    
+             }
+
+            }
 
     
     
