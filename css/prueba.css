@@ -49,7 +49,6 @@
   .propiedadesFondo .seccionSubtitulo p {
     text-align: center;
     margin: auto;
-    /*color: blueviolet;*/
     padding: 50px 50px;
     vertical-align: top;
     top: 10px; }
@@ -118,107 +117,82 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
-
-#navbar1 {
-  display: flex;
-  justify-content: end;
-  text-align: end; }
-
-.navbar {
-  display: flex;
-  justify-content: end;
-  text-align: end;
-  border: solid 2px #e6c9d3; }
-
-.contenedores2 {
-  margin: 0 100px;
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-  display: grid; }
-
-header {
-  /*border: 3px solid  black;*/
-  background-image: url(../imagenes/Fondorosa.jpg);
-  grid-area: header; }
-
-a {
-  text-decoration: none;
-  font-size: 18px; }
-
-h1 {
-  /*border: 1px solid  black; */
-  height: 150px; }
-
-footer {
-  border: 2px solid black;
-  background-image: url(../imagenes/Fondorosa.jpg);
-  height: auto; }
-
-footer p {
-  text-align: center;
-  margin-top: 20px; }
-
-.redesSociales1 {
-  display: flex;
-  justify-content: center;
-  text-decoration: none; }
-
-.instagram {
-  margin-right: 4px;
-  transition: all 1s; }
-
-.instagram:hover {
-  transform: scale(1.5); }
-
-.correoElectronico {
-  transition: all 1s; }
-
-.correoElectronico:hover {
-  transform: scale(1.5); }
-
-.redesSociales2 {
-  display: flex;
-  justify-content: end;
-  position: fixed;
-  left: 0px;
-  right: 20px;
-  bottom: 150px; }
-
-.whatsapp {
-  transition: all 1s; }
-
-.whatsapp:hover {
-  transform: scale(1.3); }
-
-.Titulo {
-  text-align: center;
-  margin-bottom: 70px;
-  margin-top: 70px;
-  color: black;
-  font-size: 45px;
-  /*border: solid 2px cornflowerblue;*/ }
-
-.loto {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px; }
-
-.loto img {
-  height: 300px; }
-
-.lotoparrafo {
-  display: flex;
-  justify-content: center;
-  /*border: solid 3px tomato;*/
-  margin-bottom: 300PX; }
-
-.ContenidoDelTitulo p {
-  width: 400px;
-  text-align: center;
-  font-size: 20px; }
-
-.nav-link {
-  color: black; }
+  body header {
+    background-image: url(../imagenes/Fondorosa.jpg);
+    grid-area: header; }
+    body header #navbar1 {
+      display: flex;
+      justify-content: end;
+      text-align: end; }
+    body header .navbar {
+      display: flex;
+      justify-content: end;
+      text-align: end;
+      border: solid 2px #e6c9d3; }
+  body .contenedores2 {
+    margin: 0 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    display: grid; }
+    body .contenedores2 h1 {
+      height: 150px; }
+      body .contenedores2 h1 .Titulo {
+        text-align: center;
+        margin-bottom: 70px;
+        margin-top: 70px;
+        color: black;
+        font-size: 45px; }
+    body .contenedores2 .ContenidoDelTitulo p {
+      width: 400px;
+      text-align: center;
+      font-size: 20px; }
+    body .contenedores2 .ContenidoDelTitulo .lotoparrafo {
+      display: flex;
+      justify-content: center;
+      /*border: solid 3px tomato;*/
+      margin-bottom: 300PX; }
+    body .contenedores2 .ContenidoDelTitulo .loto {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px; }
+      body .contenedores2 .ContenidoDelTitulo .loto img {
+        height: 300px; }
+  body a {
+    text-decoration: none;
+    font-size: 18px; }
+  body footer {
+    border: 2px solid black;
+    background-image: url(../imagenes/Fondorosa.jpg);
+    height: auto; }
+    body footer p {
+      text-align: center;
+      margin-top: 20px; }
+    body footer .redesSociales1 {
+      display: flex;
+      justify-content: center;
+      text-decoration: none; }
+      body footer .redesSociales1 .instagram {
+        margin-right: 4px;
+        transition: all 1s; }
+      body footer .redesSociales1 .instagram:hover {
+        transform: scale(1.5); }
+      body footer .redesSociales1 .correoElectronico {
+        transition: all 1s; }
+      body footer .redesSociales1 .correoElectronico:hover {
+        transform: scale(1.5); }
+    body footer .redesSociales2 {
+      display: flex;
+      justify-content: end;
+      position: fixed;
+      left: 0px;
+      right: 20px;
+      bottom: 150px; }
+      body footer .redesSociales2 .whatsapp {
+        transition: all 1s; }
+      body footer .redesSociales2 .whatsapp:hover {
+        transform: scale(1.3); }
+    body footer .nav-link {
+      color: black; }
 
 .seccionSubtitulo2 {
   margin: 0 100px;
@@ -398,23 +372,24 @@ footer p {
   /*----PROPIEDADES----*/
   .propiedadesFondo {
     margin: 0px; }
-  .seccionSubtitulo {
-    display: inline-block;
-    background-color: white;
-    font-size: 17px;
-    margin: 0, 20px;
-    margin-bottom: 100px; }
-  .piedra p {
-    height: auto;
-    width: auto; }
-  .seccionSubtitulo p {
-    color: blueviolet;
-    font-size: 15px; }
-  .seccionSubtitulo img {
-    height: 70px;
-    width: 70px; }
-  .piedrasimagen {
-    height: 100px; }
+    .propiedadesFondo .seccionSubtitulo {
+      display: inline-block;
+      background-color: white;
+      font-size: 17px;
+      margin: 0, 20px;
+      margin-bottom: 100px; }
+    .propiedadesFondo p {
+      color: blueviolet;
+      font-size: 15px; }
+    .propiedadesFondo img {
+      height: 70px;
+      width: 70px; }
+    .propiedadesFondo .piedrasimagen {
+      height: auto;
+      width: auto; }
+    .propiedadesFondo .piedra p {
+      height: auto;
+      width: auto; }
   /*----OTRAS TERAPIAS----*/
   .seccionSubtitulo2 {
     margin: 0px; }
@@ -450,13 +425,13 @@ footer p {
   /*--------CONTACTO------*/
   .contenedor-contacto {
     margin: 0; }
-  .ContactoGrilla {
-    margin-right: 10px;
-    margin-left: 10px; }
-  .ContactoGrilla div {
-    font-size: 15PX;
-    text-align: start;
-    width: auto; }
+    .contenedor-contacto .ContactoGrilla {
+      margin-right: 10px;
+      margin-left: 10px; }
+      .contenedor-contacto .ContactoGrilla div {
+        font-size: 15PX;
+        text-align: start;
+        width: auto; }
   /*-------QUIEN SOY------*/
   .contenidoQuienSoy {
     margin: 0; }

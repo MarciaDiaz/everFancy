@@ -12,6 +12,8 @@
     margin: 0 100px;
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+
+
     .seccionSubtitulo {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -87,7 +89,7 @@
 
     text-align: center;
     margin: auto;
-    /*color: blueviolet;*/
+  
     padding: 50px 50px;
     vertical-align: top;
     top: 10px;

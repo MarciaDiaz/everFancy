@@ -100,47 +100,55 @@
     .propiedadesFondo{
 
         margin: 0px;
-    }
 
-    .seccionSubtitulo {
+        .seccionSubtitulo {
 
    
-   display: inline-block;
-   background-color: white;
-   
-     font-size: 17px;
-     margin: 0, 20px;
-     margin-bottom: 100px;
-    }
-
-    .piedra p {
+            display: inline-block;
+            background-color: white;
+            
+              font-size: 17px;
+              margin: 0, 20px;
+              margin-bottom: 100px;
+             }
+             p {
  
-        height: auto;
-        width: auto;
-    
+                color: blueviolet;
+                font-size: 15px;
+                
+              
+               }
+               img {
+
+                height: 70px ;
+                width: 70px;
+            }
+
+            .piedrasimagen {
+ 
+              height: 200PX;
+              width: 200PX;
+            
+               }
+               .piedra p {
+ 
+                height: auto;
+                width: auto;
+            
+                
+            }
         
     }
 
-    .seccionSubtitulo p {
- 
-     color: blueviolet;
-     font-size: 15px;
-     
+    
+
+    
+    
+
    
-    }
-
-    .seccionSubtitulo img {
-
-        height: 70px ;
-        width: 70px;
-    }
 
  
-    .piedrasimagen {
- 
-     height: 100px;
- 
-    }
+   
  
  /*----OTRAS TERAPIAS----*/
 
@@ -218,27 +226,30 @@
 .contenedor-contacto {
 
     margin: 0;
-    
-
-}
 
 
     .ContactoGrilla {
 
     
-    margin-right: 10px;
-    margin-left: 10px;
-   
+        margin-right: 10px;
+        margin-left: 10px;
+        
+        div {
     
+            font-size: 15PX;
+            text-align: start;
+            width: auto;
+            }
+        
+      
+        }
+
+}
+
+
   
-    }
 
-    .ContactoGrilla div {
 
-    font-size: 15PX;
-    text-align: start;
-    width: auto;
-    }
 
 
 /*-------QUIEN SOY------*/
