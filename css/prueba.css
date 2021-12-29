@@ -1,5 +1,4 @@
 .seccionSubtitulo {
-  border: 1px solid black;
   font-size: 17px;
   margin-top: 100px;
   margin-bottom: 150px;
@@ -11,13 +10,13 @@
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
 
+.piedra p {
+  height: 330px;
+  width: auto; }
+
 .botonPropiedades {
   display: flex;
-  text-align: center;
   justify-content: center; }
-
-.item {
-  background-color: #ecdede; }
 
 .seccionSubtitulo img {
   display: block;
@@ -34,6 +33,10 @@
   vertical-align: top;
   top: 10px; }
 
+.seccionSubtitulo .piedra {
+  border: solid black 1px;
+  margin: 2px; }
+
 .seccionSubtitulo img {
   float: left; }
 
@@ -41,10 +44,10 @@
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "item item2 item3" "item4 item5 item6" "item7 item8 item9"; }
+  grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9"; }
 
-.item {
-  grid-area: item; }
+.item1 {
+  grid-area: item1; }
 
 .item2 {
   grid-area: item2; }
@@ -70,15 +73,6 @@
 .item9 {
   grid-area: item9; }
 
-.item2 {
-  background-color: #e6c9d3; }
-
-.item3 {
-  background-color: #ecdede; }
-
-.item4 {
-  background-color: #e6c9d3; }
-
 .piedrasimagen {
   display: flex;
   justify-content: center;
@@ -90,7 +84,8 @@ h2 {
   justify-content: center;
   text-align: center;
   color: black;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-top: 30px; }
 
 .todo-quienSoy {
   display: grid;
@@ -439,10 +434,14 @@ footer p {
   .propiedadesFondo {
     margin: 0px; }
   .seccionSubtitulo {
-    display: table-column;
+    display: inline-block;
+    background-color: white;
     font-size: 17px;
-    margin: 0;
+    margin: 0, 20px;
     margin-bottom: 100px; }
+  .piedra p {
+    height: auto;
+    width: auto; }
   .seccionSubtitulo p {
     color: blueviolet;
     font-size: 15px; }
