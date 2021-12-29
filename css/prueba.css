@@ -439,6 +439,7 @@ footer p {
   .propiedadesFondo {
     margin: 0px; }
   .seccionSubtitulo {
+    display: table-column;
     font-size: 17px;
     margin: 0;
     margin-bottom: 100px; }
