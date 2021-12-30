@@ -9,29 +9,7 @@
 
     }
    
-    nav {
 
-    display: flex;
-    justify-content: end;
-    background-color: none;
-
-    } 
-
-    nav ul {
-
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(223, 176, 192);
-    padding: 0;
-
-    }
-
-    a {
-
-    text-decoration: none;
-    font-size: 15px;
-    
-    }
 
     nav a{
 
@@ -44,7 +22,40 @@
   /*-------INDEX-------*/
 
 
+  .menu-nuevo1 {
 
+        
+
+    margin: 0px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+   
+
+
+
+    .TituloPrincipal{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .Imagen-florLoto {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+    
+
+    .lotoParrafo{
+
+        text-align: center;
+        border: black solid 2px;
+     margin-bottom: 150px;
+     padding: 0;
+    }
+ 
+}
 
 
   
