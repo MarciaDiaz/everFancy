@@ -301,7 +301,6 @@ body {
 .yogaBeneficios p {
   font-size: 19px;
   color: #c093a2;
-  background-color: #e2dada;
   width: 70%; }
 
 .parrafoYoga {
@@ -353,18 +352,19 @@ body {
   .contenedores2 {
     width: auto;
     margin: 0px; }
-  .loto img {
-    height: 150px;
-    width: auto; }
-  .ContenidoDelTitulo p {
-    font-size: 15px;
-    border: black 2px dotted;
-    margin: 0 20px;
-    width: auto; }
+    .contenedores2 .loto img {
+      height: 150px;
+      width: auto;
+      border: chartreuse solid 3px; }
+    .contenedores2 .ContenidoDelTitulo p {
+      font-size: 15px;
+      border: black 2px dotted;
+      margin: 0 20px;
+      width: auto; }
   footer p {
     font-size: 15px; }
-  .redesSociales img {
-    height: 20px; }
+    footer p .redesSociales img {
+      height: 20px; }
   /*----PROPIEDADES----*/
   .propiedadesFondo {
     margin: 0px; }
@@ -430,8 +430,13 @@ body {
   /*-------QUIEN SOY------*/
   .contenidoQuienSoy {
     margin: 0; }
-  .carrousel1 {
-    margin: auto 20px; } }
+    .contenidoQuienSoy p {
+      text-align: center;
+      margin: 50px 10px;
+      font-size: 17px;
+      color: #644664; }
+    .contenidoQuienSoy .carrousel1 {
+      margin: auto 20px; } }
 
 @keyframes aparecer {
   0% {

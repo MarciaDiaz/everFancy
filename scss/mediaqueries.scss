@@ -51,22 +51,16 @@
  
     width: auto;
     margin: 0px;
+
+
+    .loto img {
+
+        height: 150px;
+        width: auto;
+        border: chartreuse solid 3px;
     
-  }
-
-   
+    }
     
-   .loto img {
-
-    height: 150px;
-    width: auto;
-
-}
-
- 
-    
- 
-
     .ContenidoDelTitulo p {
         
         font-size: 15px;
@@ -76,19 +70,31 @@
      
     }
 
+  }
+
+   
+    
+ 
+ 
+    
+ 
+
+ 
 
     footer p {
     
         font-size: 15px;
+
+        .redesSociales img {
+
+            height: 20px;
+        
+           }
     }
     
  
 
-   .redesSociales img {
-
-    height: 20px;
-
-   }
+   
 
 /*----PROPIEDADES----*/
 
@@ -253,15 +259,30 @@
 
 /*-------QUIEN SOY------*/
 
+
+
+
+
+
 .contenidoQuienSoy {
 
     
     margin: 0;
+
+    p{
+        text-align: center;
+        margin: 50px 10px;
+        font-size: 17px;
+        color: rgb(100, 70, 100);
+        
+        
+    }
     
-}
+
 
 .carrousel1 {
 
     margin: auto 20px ;
+}
 }
 }
