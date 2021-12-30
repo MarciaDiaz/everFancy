@@ -119,42 +119,18 @@ body {
   body header {
     background-image: url(../imagenes/Fondorosa.jpg);
     grid-area: header; }
-    body header #navbar1 {
-      display: flex;
-      justify-content: end;
-      text-align: end; }
     body header .navbar {
       display: flex;
-      justify-content: end;
-      text-align: end;
+      align-items: end;
       border: solid 2px #e6c9d3; }
+    body header .navbar-nav .nav-link {
+      align-items: flex-end;
+      text-align: end; }
   body .contenedores2 {
     margin: 0 100px;
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
     display: grid; }
-    body .contenedores2 h1 {
-      height: 150px; }
-      body .contenedores2 h1 .Titulo {
-        text-align: center;
-        margin-bottom: 70px;
-        margin-top: 70px;
-        color: black;
-        font-size: 45px; }
-    body .contenedores2 .ContenidoDelTitulo p {
-      width: 400px;
-      text-align: center;
-      font-size: 20px; }
-    body .contenedores2 .ContenidoDelTitulo .lotoparrafo {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 300PX; }
-    body .contenedores2 .ContenidoDelTitulo .loto {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 100px; }
-      body .contenedores2 .ContenidoDelTitulo .loto img {
-        height: 300px; }
   body a {
     text-decoration: none;
     font-size: 18px; }
@@ -217,17 +193,11 @@ body {
     .seccionSubtitulo2 .yogaBeneficios ul {
       margin-right: 10px;
       margin-bottom: 100px; }
-      .seccionSubtitulo2 .yogaBeneficios ul li {
-        color: black; }
     .seccionSubtitulo2 .yogaBeneficios p {
       font-size: 19px;
       color: #c093a2;
       width: 70%; }
     .seccionSubtitulo2 .yogaBeneficios .yogaLista {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      grid-template-rows: auto auto auto;
-      grid-template-areas: "yoga1 yoga2 yoga3" "yoga4 yoga5 yoga6" "yoga7 yoga8 yoga8";
       margin-top: 50px;
       margin-bottom: 50px; }
       .seccionSubtitulo2 .yogaBeneficios .yogaLista li {
@@ -235,30 +205,6 @@ body {
         align-items: center;
         font-size: 18px;
         margin-bottom: 5px; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga1 {
-        grid-area: yoga1;
-        color: #dac8c8; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga2 {
-        grid-area: yoga2;
-        color: #dfb0c0; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga3 {
-        grid-area: yoga3;
-        color: #dac8c8; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga4 {
-        grid-area: yoga4;
-        color: #dfb0c0; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga5 {
-        grid-area: yoga5;
-        color: #dac8c8; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga6 {
-        grid-area: yoga6;
-        color: #dfb0c0; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga7 {
-        grid-area: yoga7;
-        color: #dac8c8; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista .yoga8 {
-        grid-area: yoga8;
-        color: #dfb0c0; }
   .seccionSubtitulo2 .consultaYoga-consultatext {
     grid-area: consultaYoga-consultatext; }
   .seccionSubtitulo2 .consultaYogaEnviar {
@@ -318,18 +264,6 @@ body {
     border: black solid 2px;
     text-align: center; }
   /*-------INDEX-------*/
-  .contenedores2 {
-    width: auto;
-    margin: 0px; }
-    .contenedores2 .loto img {
-      height: 150px;
-      width: auto;
-      border: chartreuse solid 3px; }
-    .contenedores2 .ContenidoDelTitulo p {
-      font-size: 15px;
-      border: black 2px dotted;
-      margin: 0 20px;
-      width: auto; }
   footer p {
     font-size: 15px; }
     footer p .redesSociales img {
@@ -365,8 +299,7 @@ body {
       color: black;
       text-align: center; }
     .seccionSubtitulo2 .yogaBeneficios .yogaLista {
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin: 50px 0px;
       display: flex;
       flex-direction: column; }
       .seccionSubtitulo2 .yogaBeneficios .yogaLista li {
