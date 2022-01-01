@@ -150,54 +150,54 @@ body {
     body header .navbar-nav .nav-link {
       align-items: flex-end;
       text-align: end; }
-  body .menu-nuevo1 {
+  body .paginaPrincipal {
     margin: 0px;
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
-    body .menu-nuevo1 .TituloPrincipal {
+    body .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
       display: flex;
       justify-content: center;
       margin-bottom: 100px; }
-    body .menu-nuevo1 .Imagen-florLoto {
+    body .paginaPrincipal .menu-nuevo1 .Imagen-florLoto {
       display: flex;
       justify-content: center;
       margin-bottom: 150px; }
-  body a {
-    text-decoration: none;
-    font-size: 18px; }
-  body footer {
-    border: 2px solid black;
-    background-image: url(../imagenes/Fondorosa.jpg);
-    height: auto; }
-    body footer p {
-      text-align: center;
-      margin-top: 20px; }
-    body footer .redesSociales1 {
-      display: flex;
-      justify-content: center;
-      text-decoration: none; }
-      body footer .redesSociales1 .instagram {
-        margin-right: 4px;
-        transition: all 1s; }
-      body footer .redesSociales1 .instagram:hover {
-        transform: scale(1.5); }
-      body footer .redesSociales1 .correoElectronico {
-        transition: all 1s; }
-      body footer .redesSociales1 .correoElectronico:hover {
-        transform: scale(1.5); }
-    body footer .redesSociales2 {
-      display: flex;
-      justify-content: end;
-      position: fixed;
-      left: 0px;
-      right: 20px;
-      bottom: 150px; }
-      body footer .redesSociales2 .whatsapp {
-        transition: all 1s; }
-      body footer .redesSociales2 .whatsapp:hover {
-        transform: scale(1.3); }
-    body footer .nav-link {
-      color: black; }
+    body .paginaPrincipal a {
+      text-decoration: none;
+      font-size: 18px; }
+    body .paginaPrincipal footer {
+      border: 2px solid black;
+      background-image: url(../imagenes/Fondorosa.jpg);
+      height: auto; }
+      body .paginaPrincipal footer p {
+        text-align: center;
+        margin-top: 20px; }
+      body .paginaPrincipal footer .redesSociales1 {
+        display: flex;
+        justify-content: center;
+        text-decoration: none; }
+        body .paginaPrincipal footer .redesSociales1 .instagram {
+          margin-right: 4px;
+          transition: all 1s; }
+        body .paginaPrincipal footer .redesSociales1 .instagram:hover {
+          transform: scale(1.5); }
+        body .paginaPrincipal footer .redesSociales1 .correoElectronico {
+          transition: all 1s; }
+        body .paginaPrincipal footer .redesSociales1 .correoElectronico:hover {
+          transform: scale(1.5); }
+      body .paginaPrincipal footer .redesSociales2 {
+        display: flex;
+        justify-content: end;
+        position: fixed;
+        left: 0px;
+        right: 20px;
+        bottom: 150px; }
+        body .paginaPrincipal footer .redesSociales2 .whatsapp {
+          transition: all 1s; }
+        body .paginaPrincipal footer .redesSociales2 .whatsapp:hover {
+          transform: scale(1.3); }
+      body .paginaPrincipal footer .nav-link {
+        color: black; }
 
 .seccionSubtitulo2 {
   margin: 0 100px;
