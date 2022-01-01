@@ -42,13 +42,18 @@ body{
  }
  
 
+
+ .paginaPrincipal{
+
+    margin: 0px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+   
+
     .menu-nuevo1 {
 
         
 
-        margin: 0px;
-        --bs-bg-opacity: 1;
-        background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
        
 
 
@@ -162,7 +167,7 @@ body{
        
         
       
-        
+ }    
         
         
        
