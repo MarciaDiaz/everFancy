@@ -19,68 +19,6 @@
     }
 
 
-  /*-------INDEX-------*/
-
-
-  .menu-nuevo1 {
-
-        
-
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-   
-
-
-
-    .TituloPrincipal{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 100px;
-    }
-
-    .Imagen-florLoto {
-
-        display: flex;
-        justify-content: center;
-        margin-bottom: 150px;
-    }
-    
-
-    .lotoParrafo{
-
-        text-align: center;
-        border: black solid 2px;
-     margin-bottom: 150px;
-     padding: 0;
-    }
- 
-}
-
-
-  
-
-   
-    
- 
- 
-    
- 
-
- 
-
-    footer p {
-    
-        font-size: 15px;
-
-        .redesSociales img {
-
-            height: 20px;
-        
-           }
-    }
-    
- 
 
    
 
@@ -309,4 +247,85 @@
     margin: auto 20px ;
 }
 }
+
+  /*-------INDEX-------*/
+
+
+  
+  .paginaPrincipal{
+
+
+    margin: 0px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    
+    height: auto;
+    padding: 0px;
+
+  .menu-nuevo1 {
+
+        
+
+   
+   
+
+
+
+    .TituloPrincipal{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .Imagen-florLoto {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+    
+
+    .lotoParrafo{
+
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 150px;
+        border: black solid 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+ 
+}
+
+  }
+  
+
+   
+
+ 
+ 
+    
+ 
+
+ 
+
+    footer p {
+    
+        font-size: 15px;
+
+        .redesSociales img {
+
+            height: 10px;
+        
+           }
+
+
+    }
+    
+ 
+
+
+
+
 }

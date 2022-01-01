@@ -150,54 +150,68 @@ body {
     body header .navbar-nav .nav-link {
       align-items: flex-end;
       text-align: end; }
-  body .paginaPrincipal {
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
-    body .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 100px; }
-    body .paginaPrincipal .menu-nuevo1 .Imagen-florLoto {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 150px; }
-    body .paginaPrincipal a {
-      text-decoration: none;
-      font-size: 18px; }
-    body .paginaPrincipal footer {
-      border: 2px solid black;
-      background-image: url(../imagenes/Fondorosa.jpg);
-      height: auto; }
-      body .paginaPrincipal footer p {
-        text-align: center;
-        margin-top: 20px; }
-      body .paginaPrincipal footer .redesSociales1 {
-        display: flex;
-        justify-content: center;
-        text-decoration: none; }
-        body .paginaPrincipal footer .redesSociales1 .instagram {
-          margin-right: 4px;
-          transition: all 1s; }
-        body .paginaPrincipal footer .redesSociales1 .instagram:hover {
-          transform: scale(1.5); }
-        body .paginaPrincipal footer .redesSociales1 .correoElectronico {
-          transition: all 1s; }
-        body .paginaPrincipal footer .redesSociales1 .correoElectronico:hover {
-          transform: scale(1.5); }
-      body .paginaPrincipal footer .redesSociales2 {
-        display: flex;
-        justify-content: end;
-        position: fixed;
-        left: 0px;
-        right: 20px;
-        bottom: 150px; }
-        body .paginaPrincipal footer .redesSociales2 .whatsapp {
-          transition: all 1s; }
-        body .paginaPrincipal footer .redesSociales2 .whatsapp:hover {
-          transform: scale(1.3); }
-      body .paginaPrincipal footer .nav-link {
-        color: black; }
+
+.paginaPrincipal {
+  margin: 0 100px;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  height: auto;
+  padding: 50px; }
+  .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; }
+  .paginaPrincipal .menu-nuevo1 .Imagen-florLoto {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px; }
+  .paginaPrincipal .menu-nuevo1 .lotoParrafo {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 150px;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px; }
+
+a {
+  text-decoration: none;
+  font-size: 18px; }
+
+footer {
+  border: 2px solid black;
+  background-image: url(../imagenes/Fondorosa.jpg);
+  height: auto; }
+  footer p {
+    text-align: center;
+    margin-top: 20px; }
+  footer .redesSociales1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none; }
+    footer .redesSociales1 .instagram {
+      margin-right: 4px;
+      transition: all 1s; }
+    footer .redesSociales1 .instagram:hover {
+      transform: scale(1.5); }
+    footer .redesSociales1 .correoElectronico {
+      transition: all 1s; }
+    footer .redesSociales1 .correoElectronico:hover {
+      transform: scale(1.5); }
+  footer .redesSociales2 {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    height: 10px;
+    left: 0px;
+    right: 20px;
+    bottom: 150px; }
+    footer .redesSociales2 .whatsapp {
+      transition: all 1s; }
+    footer .redesSociales2 .whatsapp:hover {
+      transform: scale(1.3); }
+  footer .nav-link {
+    color: black; }
 
 .seccionSubtitulo2 {
   margin: 0 100px;
@@ -347,28 +361,6 @@ body {
   nav a {
     border: black solid 2px;
     text-align: center; }
-  /*-------INDEX-------*/
-  .menu-nuevo1 {
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
-    .menu-nuevo1 .TituloPrincipal {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 100px; }
-    .menu-nuevo1 .Imagen-florLoto {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 150px; }
-    .menu-nuevo1 .lotoParrafo {
-      text-align: center;
-      border: black solid 2px;
-      margin-bottom: 150px;
-      padding: 0; }
-  footer p {
-    font-size: 15px; }
-    footer p .redesSociales img {
-      height: 20px; }
   /*----PROPIEDADES----*/
   .propiedadesFondo {
     margin: 0px; }
@@ -439,4 +431,31 @@ body {
       font-size: 17px;
       color: #644664; }
     .contenidoQuienSoy .carrousel1 {
-      margin: auto 20px; } }
+      margin: auto 20px; }
+  /*-------INDEX-------*/
+  .paginaPrincipal {
+    margin: 0px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    height: auto;
+    padding: 0px; }
+    .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px; }
+    .paginaPrincipal .menu-nuevo1 .Imagen-florLoto {
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 150px; }
+    .paginaPrincipal .menu-nuevo1 .lotoParrafo {
+      text-align: center;
+      font-size: 15px;
+      margin-bottom: 150px;
+      border: black solid 1px;
+      margin-left: 10px;
+      margin-right: 10px; }
+  footer p {
+    font-size: 15px; }
+    footer p .redesSociales img {
+      height: 10px; } }
