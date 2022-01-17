@@ -222,8 +222,6 @@ footer {
   .seccionSubtitulo2 .yoga .CadaPagina {
     font-size: 25px;
     color: #24181c;
-    display: flex;
-    justify-content: center;
     margin-bottom: 80px;
     margin-top: 0px;
     padding: 50px; }
