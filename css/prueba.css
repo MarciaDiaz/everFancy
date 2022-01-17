@@ -355,75 +355,80 @@ footer {
         height: auto;
         width: auto; }
     .propiedadesFondo .piedrasimagen {
-      height: 150px; }
-  /*----OTRAS TERAPIAS----*/
-  .seccionSubtitulo2 {
-    margin: 0px; }
-    .seccionSubtitulo2 .CadaPagina {
-      font-size: 20px; }
-    .seccionSubtitulo2 .yogaBeneficios ul {
-      margin-right: 0px;
-      margin-bottom: 0px; }
-      .seccionSubtitulo2 .yogaBeneficios ul li {
-        font-size: 15px;
-        margin-bottom: 5px;
-        color: black;
-        text-align: center; }
-    .seccionSubtitulo2 .yogaBeneficios .yogaLista {
-      margin: 50px 0px;
-      display: flex;
-      flex-direction: column; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista li {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid #dfb0c0; }
-      .seccionSubtitulo2 .yogaBeneficios .yogaLista p {
-        font-size: 16px;
-        color: black; }
-  /*--------CONTACTO------*/
-  .contenedor-contacto {
-    margin: 0; }
-    .contenedor-contacto .ContactoGrilla {
-      margin-right: 10px;
-      margin-left: 10px; }
-      .contenedor-contacto .ContactoGrilla div {
-        font-size: 15PX;
-        text-align: start;
-        width: auto; }
-  /*-------QUIEN SOY------*/
-  .contenidoQuienSoy {
-    margin: 0; }
-    .contenidoQuienSoy p {
-      text-align: center;
-      margin: 50px 10px;
-      font-size: 17px;
-      color: #644664; }
-    .contenidoQuienSoy .carrousel1 {
-      margin: auto 20px; }
-  /*-------INDEX-------*/
-  .paginaPrincipal {
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-    height: auto;
-    padding: 0px; }
-    .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 100px; }
-    .paginaPrincipal .menu-nuevo1 .Imagen-florLoto {
-      height: 150px;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 150px; }
-    .paginaPrincipal .menu-nuevo1 .lotoParrafo {
-      text-align: center;
+      height: 150px; } }
+
+/*----OTRAS TERAPIAS----*/
+.seccionSubtitulo2 {
+  margin: 0px; }
+  .seccionSubtitulo2 .CadaPagina {
+    font-size: 20px; }
+  .seccionSubtitulo2 .yogaBeneficios ul {
+    margin-right: 0px;
+    margin-bottom: 0px; }
+    .seccionSubtitulo2 .yogaBeneficios ul li {
       font-size: 15px;
-      margin-bottom: 150px;
-      border: black solid 1px;
-      margin-left: 10px;
-      margin-right: 10px; }
-  footer p {
-    font-size: 15px; }
-    footer p .redesSociales img {
-      height: 10px; } }
+      margin-bottom: 5px;
+      color: black;
+      text-align: center; }
+  .seccionSubtitulo2 .yogaBeneficios .yogaLista {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column; }
+    .seccionSubtitulo2 .yogaBeneficios .yogaLista li {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid #dfb0c0; }
+    .seccionSubtitulo2 .yogaBeneficios .yogaLista p {
+      font-size: 16px;
+      color: black; }
+
+/*--------CONTACTO------*/
+.contenedor-contacto {
+  margin: 0; }
+  .contenedor-contacto .ContactoGrilla {
+    margin-right: 10px;
+    margin-left: 10px; }
+    .contenedor-contacto .ContactoGrilla div {
+      font-size: 15PX;
+      text-align: start;
+      width: auto; }
+
+/*-------QUIEN SOY------*/
+.contenidoQuienSoy {
+  margin: 0; }
+  .contenidoQuienSoy p {
+    text-align: center;
+    margin: 50px 10px;
+    font-size: 17px;
+    color: #644664; }
+  .contenidoQuienSoy .carrousel1 {
+    margin: auto 20px; }
+
+/*-------INDEX-------*/
+.paginaPrincipal {
+  margin: 0px;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  height: auto;
+  padding: 0px; }
+  .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; }
+  .paginaPrincipal .menu-nuevo1 .Imagen-florLoto {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px; }
+  .paginaPrincipal .menu-nuevo1 .lotoParrafo {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 150px;
+    border: black solid 1px;
+    margin-left: 10px;
+    margin-right: 10px; }
+
+footer p {
+  font-size: 15px; }
+  footer p .redesSociales img {
+    height: 10px; }
