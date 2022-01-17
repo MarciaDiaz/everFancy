@@ -38,41 +38,41 @@
                          margin: 0, 20px;
                         margin-bottom: 100px;
             
-                     p {
+                             p {
  
-                        color: blueviolet;
-                        font-size: 15px;
+                                color: blueviolet;
+                                font-size: 15px;
                 
               
-                         }
-                     img {
+                                }
 
-                         height: 70px ;
-                        width: 70px;
-                     }
+                             img {
+
+                                height: 70px ;
+                                width: 70px;
+                                }
 
           
              
-                        .piedra p {
+                            .piedra p {
  
-                        height: auto;
-                        width: auto;
+                                height: auto;
+                                width: auto;
             
                 
-                    }
-                 }
+                                }
+        }
                 
         
             .piedrasimagen {
  
                 height: 150px;
                 
-                
-
-             }
+                }
 
             }
 
+    }
     
     
 
@@ -99,11 +99,16 @@
             }
         
 
-            .yogaBeneficios{
+        .yogaBeneficios{
 
 
 
                 ul {
+
+
+                    margin-right: 0px ;
+                    margin-bottom: 0px;
+
 
                     li {
                         font-size: 15px;
@@ -142,51 +147,14 @@
         
                     }
                 }
-    .consultaYoga {
-
-             display: grid;
-             grid-template-columns: AUTO auto;
-             grid-template-rows: auto auto;
-             font-size: 15PX;
-                   
-             }
+  
         
-            
-        
-            }
-    .yogaImagen2 {
-
-      display: flex;
-      justify-content: center;
-      margin-bottom: 50px;
-      margin-top: 20px;
-}  
-           
-
-
-
         }
+   
+    }
 
 
       
-
-
-
- 
-
-
- 
-
-
-  
-
-   
-
-    
-    
-
-
-
 /*--------CONTACTO------*/
 
 
@@ -215,38 +183,30 @@
 
 
   
-
-
-
-
 /*-------QUIEN SOY------*/
-
-
-
-
-
 
 .contenidoQuienSoy {
 
     
-    margin: 0;
+        margin: 0;
 
-    p{
-        text-align: center;
-        margin: 50px 10px;
-        font-size: 17px;
-        color: rgb(100, 70, 100);
+         p{
+                text-align: center;
+                margin: 50px 10px;
+                font-size: 17px;
+                color: rgb(100, 70, 100);
         
         
-    }
+            }
     
 
 
-.carrousel1 {
+        .carrousel1 {
 
-    margin: auto 20px ;
-}
-}
+                margin: auto 20px ;
+            }
+
+    }
 
   /*-------INDEX-------*/
 
@@ -255,62 +215,47 @@
   .paginaPrincipal{
 
 
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+                margin: 0px;
+                 --bs-bg-opacity: 1;
+                background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
     
-    height: auto;
-    padding: 0px;
+                height: auto;
+                padding: 0px;
 
-  .menu-nuevo1 {
+                .menu-nuevo1 {
 
         
+                        .TituloPrincipal{
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 100px;
+                            }
 
-   
-   
-
-
-
-    .TituloPrincipal{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 100px;
-    }
-
-    .Imagen-florLoto {
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 150px;
-    }
+                        .Imagen-florLoto {
+                                    height: 150px;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 150px;
+                            }
     
 
-    .lotoParrafo{
+                        .lotoParrafo{
 
-        text-align: center;
-        font-size: 15px;
-        margin-bottom: 150px;
-        border: black solid 1px;
-        margin-left: 10px;
-        margin-right: 10px;
+                                    text-align: center;
+                                    font-size: 15px;
+                                    margin-bottom: 150px;
+                                    border: black solid 1px;
+                                    margin-left: 10px;
+                                    margin-right: 10px;
     
-    }
+                            }
  
-}
+                }
 
-  }
+    
   
 
-   
-
- 
- 
-    
- 
-
- 
-
-    footer p {
+   footer p {
     
         font-size: 15px;
 

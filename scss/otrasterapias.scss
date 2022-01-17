@@ -8,6 +8,9 @@
       padding: 50px;
 
 
+      .yoga{
+
+
              .CadaPagina {
   
               font-size: 25px;
@@ -28,12 +31,24 @@
             
             }
 
+
+            .yogaImagen1 {
+            
+            
+                border: chartreuse solid 3px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 50px;
+            }       
+
             .yogaBeneficios{
             
+              
                
                margin-left: 10px ;
                margin-right: 10px ;
-               align-items: center;
+              
+               border: chocolate solid 3px;
 
 
                         ul {
@@ -68,17 +83,23 @@
 
                                          
                         
-                    }
+                        }
+
+                        .parrafoYoga{
+  
+                            align-items: center;
+                            display: flex;
+                            justify-content: center;
+                        
+                        }
+                        
+
 
            
            }
 
-           .consultaYoga-consultatext {
-    
-            grid-area: consultaYoga-consultatext;
-        
-        
         }
+
         .consultaYogaEnviar{
 
             display: flex;
@@ -88,86 +109,9 @@
             }
 
 
-  
-  }
-  
-  
-  
-  
-  
-  
-  .otrasTerapias {
-  
-      font-size: 23px;
-      color:palevioletred ;
-      
-  }
-  
-  .consultaYoga {
-  
-      display: grid;
-      grid-template-columns: 200PX 350PX;
-      grid-template-rows: auto auto;
-     
-      justify-content: center; 
-      margin-bottom: 5px;
-      margin-top: 50px;
-      grid-template-areas: 
-      "consultaYoga-consulta consultaYoga-consulta"
-      "consultaYoga-consultatext consultaYoga-consultatext"
-      "consultaYoga-email consultaYoga-emailtext"
-      ;
 
-
-                .consultaYoga-consulta {
   
-                        grid-area: consultaYoga-consulta;
-                        }
-    
-                .consultaYoga-email {
-    
-                         grid-area: consultaYoga-email;
-                        }
-    
-                .consultaYoga-emailtext {
-    
-                         grid-area: consultaYoga-emailtext;
-    
-                        }
-    
-                        input {
-    
-                            width: 90%;
-               }      
-               div {
-  
-                background-color:rgb(236, 222, 222) ;
-                border: solid 2px  rgb(230, 201, 211)  ;
-                
-            }
-    
-            .parrafoYoga{
-  
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            
-            }
-            
-            
-            
-            .yogaImagen1 {
-            
-            
-                
-                display: flex;
-                justify-content: center;
-                margin-bottom: 50px;
-            }       
-  
-  }
-  
-  
+} 
   
   
   
