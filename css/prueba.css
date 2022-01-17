@@ -325,9 +325,11 @@ footer {
     margin: 0px;
     width: auto; }
   nav a {
-    border: black solid 2px;
-    text-align: center; }
-  /*----PROPIEDADES----*/
+    /*border: black solid 2px;*/
+    text-align: center; } }
+
+/*----PROPIEDADES----*/
+@media screen and (max-width: 768px) {
   .propiedadesFondo {
     margin: 0px; }
     .propiedadesFondo .seccionSubtitulo {
@@ -346,8 +348,10 @@ footer {
         height: auto;
         width: auto; }
     .propiedadesFondo .piedrasimagen {
-      height: 150px; }
-  /*----OTRAS TERAPIAS----*/
+      height: 150px; } }
+
+/*----OTRAS TERAPIAS----*/
+@media screen and (max-width: 768px) {
   .seccionSubtitulo2 {
     margin: 0px; }
     .seccionSubtitulo2 .CadaPagina {
