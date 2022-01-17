@@ -9,36 +9,37 @@ body{
      margin: 0;
      box-sizing:  border-box;
 
-            header {       
-                    background-image: url(../imagenes/Fondorosa.jpg);
-                    grid-area: header;  
+            header {  
+                --bs-bg-opacity: 1;     
+                background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+                    
+                    .imagenlogo {
 
+                            background-image: url(../imagenes/Fondorosa.jpg);
 
- 
-
-                    .navbar   {
-
-    
-                           
-                            border: solid 2px rgb(230, 201, 211);
-        
-        
-       
-                                }
-
-                   
-                    .navbar-nav   {
-
-                        display: flex;
-                        justify-content: end;
                     }
 
+ 
+
+                    .navbar1  {
+
+                            border: solid 2px rgb(230, 201, 211);
+                            display: flex;
+                            justify-content: end;
+                            width: auto;
 
 
-    
-                     }
+                          .menu1 {
+                              background-color: rgb(230, 201, 211);
+                          }
+       
+                    }
+
+            }
  
  }
+
+
 
  .paginaPrincipal{
 
@@ -68,14 +69,16 @@ body{
 
             text-align: center;
             font-size: 17px;
-         margin-bottom: 150px;
-         padding: 0;
-         margin-left: 100px;
-         margin-right: 100px;
+            margin-bottom: 150px;
+            padding: 0;
+             margin-left: 100px;
+            margin-right: 100px;
         }
 
      
-}
+    }
+
+
  }
 
     a {

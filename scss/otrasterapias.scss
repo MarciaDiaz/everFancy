@@ -5,17 +5,19 @@
       --bs-bg-opacity: 1;
       background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
       height: auto;
-      padding: 50px;
+     
 
 
-      .yoga{
+    .yoga{
 
 
              .CadaPagina {
   
               font-size: 25px;
               color: rgb(36, 24, 28);
-              
+              display: flex;
+              justify-content: center;
+              text-align: center;
               margin-bottom: 80px;
               margin-top: 0px;
               padding: 50px;

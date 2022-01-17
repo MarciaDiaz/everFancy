@@ -141,10 +141,17 @@ body {
   margin: 0;
   box-sizing: border-box; }
   body header {
-    background-image: url(../imagenes/Fondorosa.jpg);
-    grid-area: header; }
-    body header .navbar {
-      border: solid 2px #e6c9d3; }
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
+    body header .imagenlogo {
+      background-image: url(../imagenes/Fondorosa.jpg); }
+    body header .navbar1 {
+      border: solid 2px #e6c9d3;
+      display: flex;
+      justify-content: end;
+      width: auto; }
+      body header .navbar1 .menu1 {
+        background-color: #e6c9d3; }
 
 .paginaPrincipal {
   margin: 0 100px;
@@ -212,11 +219,13 @@ footer {
   margin: 0 100px;
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-  height: auto;
-  padding: 50px; }
+  height: auto; }
   .seccionSubtitulo2 .yoga .CadaPagina {
     font-size: 25px;
     color: #24181c;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     margin-bottom: 80px;
     margin-top: 0px;
     padding: 50px; }
@@ -321,10 +330,7 @@ footer {
     width: auto; }
   nav a {
     border: solid 2px #e6c9d3;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    color: blueviolet; } }
+    text-align: center; } }
 
 /*----PROPIEDADES----*/
 @media screen and (max-width: 768px) {
