@@ -144,12 +144,7 @@ body {
     background-image: url(../imagenes/Fondorosa.jpg);
     grid-area: header; }
     body header .navbar {
-      display: flex;
-      align-items: end;
       border: solid 2px #e6c9d3; }
-    body header .navbar-nav .nav-link {
-      align-items: flex-end;
-      text-align: end; }
 
 .paginaPrincipal {
   margin: 0 100px;
@@ -326,7 +321,10 @@ footer {
     width: auto; }
   nav a {
     /*border: black solid 2px;*/
-    text-align: center; } }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: blueviolet; } }
 
 /*----PROPIEDADES----*/
 @media screen and (max-width: 768px) {
