@@ -35,17 +35,6 @@ correo: rgb(255, 55, 55),
 
 
 
-@mixin grilla ($fondo, $borde, $letra) {
 
-    background-color: $fondo;
-    border: $borde;
-    font-size: $letra;
-    
-}
-
-.ContactoGrilla {
-
-    @include grilla ( green,3px ,arial )
-}
 
 
