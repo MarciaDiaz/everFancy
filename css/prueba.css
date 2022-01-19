@@ -150,8 +150,6 @@ body {
       display: flex;
       justify-content: end;
       width: auto; }
-      body header .navbar1 .menu1 {
-        background-color: #e6c9d3; }
 
 .paginaPrincipal {
   margin: 0 100px;
@@ -325,15 +323,27 @@ footer {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 0px;
-    margin: 0px;
-    width: auto; }
-  nav a {
-    border: solid 2px #e6c9d3;
-    text-align: center; } }
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+    body header {
+      --bs-bg-opacity: 1;
+      background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)); }
+      body header .imagenlogo {
+        background-image: url(../imagenes/Fondorosa.jpg); }
+      body header .navbar1 {
+        display: flex;
+        justify-content: start; }
+        body header .navbar1 nav a {
+          border: solid 1px #e6c9d3;
+          text-align: center; } }
 
 /*----PROPIEDADES----*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .propiedadesFondo {
     margin: 0px; }
     .propiedadesFondo .seccionSubtitulo {
@@ -343,7 +353,7 @@ footer {
       margin: 0, 20px;
       margin-bottom: 100px; }
       .propiedadesFondo .seccionSubtitulo p {
-        color: blueviolet;
+        color: #242125;
         font-size: 15px; }
       .propiedadesFondo .seccionSubtitulo img {
         height: 70px;
@@ -378,18 +388,22 @@ footer {
         border: 2px solid #dfb0c0; }
       .seccionSubtitulo2 .yogaBeneficios .yogaLista p {
         font-size: 16px;
-        color: black; }
-  /*--------CONTACTO------*/
+        color: black; } }
+
+/*--------CONTACTO------*/
+@media screen and (max-width: 768px) {
   .contenedor-contacto {
-    margin: 0; }
+    margin: 0px 5px; }
     .contenedor-contacto .ContactoGrilla {
-      margin-right: 10px;
-      margin-left: 10px; }
+      margin-right: 0px;
+      margin-left: 0px; }
       .contenedor-contacto .ContactoGrilla div {
         font-size: 15PX;
         text-align: start;
-        width: auto; }
-  /*-------QUIEN SOY------*/
+        width: 300px; } }
+
+/*-------QUIEN SOY------*/
+@media screen and (max-width: 768px) {
   .contenidoQuienSoy {
     margin: 0; }
     .contenidoQuienSoy p {
@@ -398,8 +412,10 @@ footer {
       font-size: 17px;
       color: #644664; }
     .contenidoQuienSoy .carrousel1 {
-      margin: auto 20px; }
-  /*-------INDEX-------*/
+      margin: auto 20px; } }
+
+/*-------INDEX-------*/
+@media screen and (max-width: 768px) {
   .paginaPrincipal {
     margin: 0px;
     --bs-bg-opacity: 1;

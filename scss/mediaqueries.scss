@@ -1,24 +1,50 @@
 @media screen and (max-width: 768px) {
  
+ body{
  
-    body {
+     background-color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     height: auto;
+     
+     width: auto;
+     padding: 0;
+     margin: 0;
+     box-sizing:  border-box;
 
-        padding: 0px;
-        margin: 0px;
-        width: auto;
+            header {  
+                --bs-bg-opacity: 1;     
+                background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+                    
+                    .imagenlogo {
 
-    }
-   
-  
+                            background-image: url(../imagenes/Fondorosa.jpg);
 
-    nav a{
+                    }
 
-        border: solid 2px rgb(230, 201, 211);
-        text-align: center;
-    
-    
+ 
 
-    }
+                    .navbar1  {
+
+                            display: flex;
+                            justify-content: start;
+                          
+
+                            nav a {
+
+                                border:solid 1px rgb(230, 201, 211); ;
+                                text-align: center;
+                            }
+        
+                         
+       
+                    }
+
+                    
+            }
+ 
+ }
+
+
 
 
 }
@@ -27,7 +53,8 @@
 
 /*----PROPIEDADES----*/
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
 
     .propiedadesFondo{
 
@@ -45,11 +72,12 @@
             
                      p {
  
-                        color: blueviolet;
+                        color: rgb(36, 33, 37);
                         font-size: 15px;
                 
               
-                         }
+                    }
+
                      img {
 
                          height: 70px ;
@@ -63,23 +91,21 @@
                         height: auto;
                         width: auto;
             
-                
                     }
-                 }
+        }
                 
         
             .piedrasimagen {
  
                 height: 150px;
                 
-                
-
+            
              }
 
-            }
+    }
 
     
-        }  
+}  
 
    
 
@@ -151,58 +177,40 @@
         
         
                     }
-            }
-  
-        
-            
+
+                }
+         }
+           
         
     }
    
-           
-
-
 
 }
 
 
-      
-
-
-
- 
-
-
- 
-
-
-  
-
-   
-
-    
-    
 
 
 
 /*--------CONTACTO------*/
 
+@media screen and (max-width: 768px) {
 
 .contenedor-contacto {
 
-    margin: 0;
+    margin: 0px 5px;
 
 
     .ContactoGrilla {
 
     
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
         
         div {
     
             font-size: 15PX;
             text-align: start;
-            width: auto;
+            width: 300px;
             }
         
       
@@ -210,45 +218,37 @@
 
 }
 
-
-  
-
-
+}
 
 
 /*-------QUIEN SOY------*/
 
-
-
-
-
+@media screen and (max-width: 768px) {
 
 .contenidoQuienSoy {
 
     
     margin: 0;
 
-    p{
+         p{
         text-align: center;
         margin: 50px 10px;
         font-size: 17px;
         color: rgb(100, 70, 100);
         
-        
-    }
+        }
     
+         .carrousel1 {
 
-
-.carrousel1 {
-
-    margin: auto 20px ;
-}
+        margin: auto 20px ;
+        }
+    }
 }
 
   /*-------INDEX-------*/
 
 
-
+  @media screen and (max-width: 768px) {
 
   
   .paginaPrincipal{
@@ -264,53 +264,40 @@
    
 
 
-  .menu-nuevo1 {
+    .menu-nuevo1 {
 
-        
+     
 
-   
-   
+         .TituloPrincipal{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 100px;
+        }
 
-
-
-    .TituloPrincipal{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 100px;
-    }
-
-    .Imagen-florLoto {
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 150px;
-    }
+        .Imagen-florLoto {
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 150px;
+        }
     
 
-    .lotoParrafo{
+        .lotoParrafo{
 
-        text-align: center;
-        font-size: 15px;
-        margin-bottom: 150px;
-        border: black solid 1px;
-        margin-left: 10px;
-        margin-right: 10px;
+                text-align: center;
+                font-size: 15px;
+                margin-bottom: 150px;
+                border: black solid 1px;
+                margin-left: 10px;
+                margin-right: 10px;
     
-    }
+         }
  
-}
+    }
 
-  }
+}
   
 
-   
-
- 
- 
-    
- 
-
- 
 
     footer p {
     
@@ -328,6 +315,5 @@
  
 
 
+  }
 
-
-}
