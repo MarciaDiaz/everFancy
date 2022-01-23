@@ -12,13 +12,19 @@
     height: auto;
     padding: 50px;
 
-    .menu-nuevo1 {
+    
 
         
         .TituloPrincipal{
+
+            background-color:rgb(236, 222, 222);
             display: flex;
             justify-content: center;
-            margin-bottom: 100px;
+            
+           margin-bottom: 80px;
+           margin-top: 30px;
+           padding: 50px;
+     
         }
 
         .Imagen-florLoto {
@@ -38,7 +44,7 @@
         }
 
      
-    }
+   
 
 
  }

@@ -1,12 +1,12 @@
 .seccionSubtitulo2{
  
- 
-        margin: 0 100px;
-      --bs-bg-opacity: 1;
-      background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-      height: auto;
-     
-      border: rgb(138, 255, 80) solid 3px;
+  margin: 0 100px;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  height: auto;
+  padding: 50px;
+      
+    
      
 
     .yoga{
@@ -14,13 +14,12 @@
 
              .CadaPagina {
   
-              font-size: 25px;
-              color: rgb(36, 24, 28);
-              display: flex;
-              justify-content: center;
-              text-align: center;
+              background-color:rgb(236, 222, 222);
+              font-size: 30px;
+              
+              justify-content: left;
               margin-bottom: 80px;
-              margin-top: 0px;
+              margin-top: 30px;
               padding: 50px;
         
               }
@@ -63,9 +62,10 @@
 
                         p {
   
-                        font-size: 19px;
-                        color: rgb(147, 157, 192);
-                        width: 70%;
+                        font-size: 18px;
+                        margin-left: 30px;
+                        margin-bottom: 70px;
+                       
                        }
 
 
@@ -73,7 +73,11 @@
   
                        text-decoration: none;
                         margin-top: 50px;
-                        margin-bottom: 50px;
+                        margin-bottom: 70px;
+                        display: grid;
+                       grid-template-columns: auto auto;
+                        grid-template-rows: auto auto;
+                       
                       
                        
                   
@@ -83,28 +87,30 @@
                                           align-items: center;
                                           font-size: 18px;
                                           margin-bottom: 5px ;
-                      
+                                          border-bottom: rgb(223, 176, 192) solid 1px;
                                           }
 
                                          
                         
                         }
 
+                       
                       
                        .parrafoYoga{
   
-                            align-items: center;
-                            display: flex;
-                            justify-content: center;
-                            font-size: 25px;
-                            color: orchid;
-                        
+                        display: flex;
+                        justify-content: left;
+                        font-size: 25px;
+                        color: orchid;
+                        margin-bottom: 70px;
+                        margin-left: 30px ;
                         }
                         
 
 
            
            }
+       
 
         }
 
@@ -113,28 +119,87 @@
 
             display: flex;
             justify-content: center; 
-           margin-bottom: 60px;
+           margin-bottom: 70px;
             
             
             }
 
 .gemoterapia{
 
-  border: palegreen solid 3px;
+ 
 
-  h3{
+          h3{
   
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: rgb(112, 190, 218);
-    margin-bottom: 50px;
+            
+            display: flex;
+            justify-content: left;
+            font-size: 25px;
+            color: orchid;
+            margin-bottom: 70px;
+            margin-left: 30px ;
 
-}
+          }
+
+          p {
+  
+            font-size: 18px;
+            margin: 10px 30px;
+            margin-bottom: 70px;
+            justify-content: left;
+          }
+
+          ul{
+
+           
+            text-decoration: none;
+            li{
+              list-style-type: none;
+              border-bottom: rgb(223, 176, 192) solid 1px;
+              text-decoration: none;
+              margin:50px 0 ;
+              width: 60%;
+             
+            }
+          }
 
 
-}     
+}  
+
+.terapia-consulta {
+
+  
+  margin: 10px 30px;
+
+      h3{
+  
+            
+          display: flex;
+          justify-content: left;
+          font-size: 25px;
+          color: orchid;
+           margin-bottom: 50px;
+    }
+
+    .consultaYogaEnviar{
+
+  
+        text-align: end;
+
+            .btn {
+    
+                color: white;
+                background-image: url(../imagenes/Fondorosa.jpg);
+                border: white;
+                transition: all 0.5s;
+              }
+
+            .btn:hover {
+
+              transform: scale(1.2);
+        
+            }
+      }
+  }
 
 
   

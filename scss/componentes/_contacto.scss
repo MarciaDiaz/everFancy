@@ -4,19 +4,20 @@
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
     height: auto;
-
+    padding: 50px;
+    
     .CadaPagina {
   
-        font-size: 25px;
-        color: rgb(36, 24, 28);
-        display: flex;
-        justify-content: center;
-        margin-bottom: 80px;
-        margin-top: 0px;
+        font-size: 30px;
+        background-color:rgb(236, 222, 222);
+        
+        justify-content: left;
+       margin-bottom: 80px;
+        margin-top: 30px;
         padding: 50px;
   
         }
-
+    
         
 
 
@@ -26,16 +27,21 @@
 
         display: flex;
         justify-content: center; 
-        margin-bottom: 100px;
+        margin-bottom: 80px;
 
             div {
 
                 background-color:rgb(236, 222, 222) ;
-                border: solid 2px  rgb(230, 201, 211)  ;
+                border: solid 3px  rgb(230, 201, 211)  ;
                 width: 500px;
     
             }
 
+            .check {
+
+               padding: 30px;
+               margin: 0px;
+            }
    
     
 }
@@ -48,11 +54,21 @@
 
     button {
 
-        margin: 10px 10px ;
+        margin: 10px 5px ;
+        margin-top: 0px;
         width: 60px;
         height: 45px;
         display: flex;
         justify-content: center;
+        color: white;
+        background-image: url(../imagenes/Fondorosa.jpg);
+        border: white;
+        transition: all 0.5s;
+    }
+    button:hover {
+
+        transform: scale(1.2);
+        
     }
 
 }
