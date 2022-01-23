@@ -217,7 +217,8 @@ a {
   margin: 0 100px;
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-  height: auto; }
+  height: auto;
+  border: coral solid 3px; }
   .seccionSubtitulo2 .yoga .CadaPagina {
     font-size: 25px;
     color: #24181c;
@@ -258,7 +259,6 @@ a {
       display: flex;
       justify-content: center; }
   .seccionSubtitulo2 .subtituloTerapias {
-    border: coral solid 3px;
     display: flex;
     justify-content: center; }
 
