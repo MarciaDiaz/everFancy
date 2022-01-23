@@ -261,6 +261,9 @@ a {
     display: flex;
     justify-content: center; }
 
+.consulta-otrasTerapias {
+  border: solid 3px coral; }
+
 @keyframes aparecer {
   0% {
     transform: scale(1); }
