@@ -218,7 +218,7 @@ a {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
   height: auto;
-  border: coral solid 3px; }
+  border: #8aff50 solid 3px; }
   .seccionSubtitulo2 .yoga .CadaPagina {
     font-size: 25px;
     color: #24181c;
@@ -247,6 +247,7 @@ a {
       color: #c093a2;
       width: 70%; }
     .seccionSubtitulo2 .yoga .yogaBeneficios .yogaLista {
+      text-decoration: none;
       margin-top: 50px;
       margin-bottom: 50px; }
       .seccionSubtitulo2 .yoga .yogaBeneficios .yogaLista li {
@@ -254,13 +255,17 @@ a {
         align-items: center;
         font-size: 18px;
         margin-bottom: 5px; }
-    .seccionSubtitulo2 .yoga .yogaBeneficios .parrafoYoga {
+    .seccionSubtitulo2 .yoga .yogaBeneficios h3 {
       align-items: center;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      font-size: 25px;
+      color: orchid; }
   .seccionSubtitulo2 .subtituloTerapias {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    color: darkred;
+    margin-bottom: 35px; }
 
 @keyframes aparecer {
   0% {
