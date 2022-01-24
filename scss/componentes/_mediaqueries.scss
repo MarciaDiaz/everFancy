@@ -58,8 +58,12 @@
 
     .propiedadesFondo{
 
-        margin: 0px 5px;
-        padding: 0px;
+      
+    margin: 0px 5px;
+    background-color: white;
+    
+    height: auto;
+    padding: 0px;
 
 
         .CadaPagina {
@@ -135,9 +139,11 @@
 
         
         margin: 0px 5px;
+        background-color: white;
+        
+        height: auto;
         padding: 0px;
-            
-          
+        
            
       
           .yoga{
@@ -183,6 +189,9 @@
 .contenedor-contacto {
 
     margin: 0px 5px;
+    background-color: white;
+    
+    height: auto;
     padding: 0px;
 
     .CadaPagina {
@@ -226,9 +235,14 @@
 
 .contenidoQuienSoy {
 
-    
     margin: 0px 5px;
+    background-color: white;
+    
+    height: auto;
     padding: 0px;
+
+
+
 
     
     .CadaPagina {
@@ -269,9 +283,9 @@
   .paginaPrincipal{
 
 
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    
+    margin: 0px 5px;
+    background-color: white;
     
     height: auto;
     padding: 0px;

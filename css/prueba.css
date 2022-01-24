@@ -153,10 +153,10 @@ footer {
     margin-top: 30px;
     padding: 50px; }
   .contenidoQuienSoy .carrousel1 {
-    margin: 1px 200px; }
+    margin: 1px 30px; }
   .contenidoQuienSoy p {
     justify-content: left;
-    margin: 100px 200px;
+    margin: 100px 30px;
     font-size: 18px; }
 
 .contenedor-contacto {
@@ -386,6 +386,8 @@ a {
 @media screen and (max-width: 1024px) {
   .propiedadesFondo {
     margin: 0px 5px;
+    background-color: white;
+    height: auto;
     padding: 0px; }
     .propiedadesFondo .CadaPagina {
       background-color: #ecdede;
@@ -416,6 +418,8 @@ a {
 @media screen and (max-width: 768px) {
   .seccionSubtitulo2 {
     margin: 0px 5px;
+    background-color: white;
+    height: auto;
     padding: 0px; }
     .seccionSubtitulo2 .yoga .CadaPagina {
       background-color: #ecdede;
@@ -433,6 +437,8 @@ a {
 @media screen and (max-width: 768px) {
   .contenedor-contacto {
     margin: 0px 5px;
+    background-color: white;
+    height: auto;
     padding: 0px; }
     .contenedor-contacto .CadaPagina {
       background-color: #ecdede;
@@ -453,6 +459,8 @@ a {
 @media screen and (max-width: 768px) {
   .contenidoQuienSoy {
     margin: 0px 5px;
+    background-color: white;
+    height: auto;
     padding: 0px; }
     .contenidoQuienSoy .CadaPagina {
       background-color: #ecdede;
@@ -471,9 +479,8 @@ a {
 /*-------INDEX-------*/
 @media screen and (max-width: 768px) {
   .paginaPrincipal {
-    margin: 0px;
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    margin: 0px 5px;
+    background-color: white;
     height: auto;
     padding: 0px; }
     .paginaPrincipal .menu-nuevo1 .TituloPrincipal {
