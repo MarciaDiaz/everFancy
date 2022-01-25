@@ -67,72 +67,70 @@ footer {
     margin-bottom: 80px;
     margin-top: 30px;
     padding: 50px; }
-  .propiedadesFondo .seccionSubtitulo {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9"; }
-  .propiedadesFondo .item1 {
-    grid-area: item1; }
-  .propiedadesFondo .item2 {
-    grid-area: item2; }
-  .propiedadesFondo .item3 {
-    grid-area: item3; }
-  .propiedadesFondo .item4 {
-    grid-area: item4; }
-  .propiedadesFondo .item5 {
-    grid-area: item5; }
-  .propiedadesFondo .item6 {
-    grid-area: item6; }
-  .propiedadesFondo .item7 {
-    grid-area: item7; }
-  .propiedadesFondo .item8 {
-    grid-area: item8; }
-  .propiedadesFondo .item9 {
-    grid-area: item9; }
-  .propiedadesFondo .piedra p {
-    height: 330px;
-    width: auto; }
-  .propiedadesFondo .botonPropiedades {
-    display: flex;
-    justify-content: center; }
-    .propiedadesFondo .botonPropiedades .btn {
-      color: white;
-      background-image: url(../imagenes/Fondorosa.jpg);
-      margin-bottom: 10px;
-      border: white;
-      transition: all 0.5; }
-    .propiedadesFondo .botonPropiedades .btn:hover {
-      transform: scale(1.2); }
-  .propiedadesFondo .seccionSubtitulo img {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 30px;
-    margin-left: 30px; }
-  .propiedadesFondo .seccionSubtitulo img {
-    float: left; }
-  .propiedadesFondo .seccionSubtitulo p {
-    text-align: center;
-    margin: auto;
-    padding: 50px 50px;
-    vertical-align: top;
-    top: 10px; }
-  .propiedadesFondo .seccionSubtitulo .piedra {
-    border: solid black 1px;
-    margin: 2px; }
   .propiedadesFondo .piedrasimagen {
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
     height: 300px; }
-  .propiedadesFondo h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: orchid;
-    font-size: 20px;
-    margin-top: 30px; }
+  .propiedadesFondo .seccionSubtitulo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9"; }
+    .propiedadesFondo .seccionSubtitulo .item1 {
+      grid-area: item1; }
+    .propiedadesFondo .seccionSubtitulo .item2 {
+      grid-area: item2; }
+    .propiedadesFondo .seccionSubtitulo .item3 {
+      grid-area: item3; }
+    .propiedadesFondo .seccionSubtitulo .item4 {
+      grid-area: item4; }
+    .propiedadesFondo .seccionSubtitulo .item5 {
+      grid-area: item5; }
+    .propiedadesFondo .seccionSubtitulo .item6 {
+      grid-area: item6; }
+    .propiedadesFondo .seccionSubtitulo .item7 {
+      grid-area: item7; }
+    .propiedadesFondo .seccionSubtitulo .item8 {
+      grid-area: item8; }
+    .propiedadesFondo .seccionSubtitulo .item9 {
+      grid-area: item9; }
+    .propiedadesFondo .seccionSubtitulo img {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 30px;
+      margin-left: 30px; }
+    .propiedadesFondo .seccionSubtitulo img {
+      float: left; }
+    .propiedadesFondo .seccionSubtitulo h2 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: orchid;
+      font-size: 20px;
+      margin-top: 30px; }
+    .propiedadesFondo .seccionSubtitulo .piedra {
+      border: solid black 1px;
+      margin: 2px; }
+      .propiedadesFondo .seccionSubtitulo .piedra p {
+        height: 320px;
+        width: auto;
+        text-align: justify;
+        margin: 5px 30px;
+        vertical-align: auto;
+        top: 10px; }
+    .propiedadesFondo .seccionSubtitulo .botonPropiedades {
+      display: flex;
+      justify-content: center; }
+      .propiedadesFondo .seccionSubtitulo .botonPropiedades .btn {
+        color: white;
+        background-image: url(../imagenes/Fondorosa.jpg);
+        margin-bottom: 30px;
+        border: white;
+        transition: all 0.5; }
+      .propiedadesFondo .seccionSubtitulo .botonPropiedades .btn:hover {
+        transform: scale(1.2); }
 
 .contenidoQuienSoy {
   margin: 0 100px;
