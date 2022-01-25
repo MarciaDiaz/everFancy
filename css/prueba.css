@@ -376,7 +376,7 @@ a {
           text-align: center; } }
 
 /*----PROPIEDADES----*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1260px) {
   .propiedadesFondo {
     margin: 0px 5px;
     background-color: white;
