@@ -105,12 +105,22 @@
 
           
              
-                        .piedra p {
- 
-                        height: auto;
-                        width: auto;
+                     .piedra{
             
-                    }
+                        border: solid black 1px;
+                        margin: 2px;
+            
+                                p {
+             
+                                    height: auto;
+                                    width: auto;
+                                    
+                                    justify-content: left;
+                                    margin: 20px 30px;
+                                    vertical-align: auto;
+                                    top: 10px;
+                                }
+                            }
         }
                 
         
@@ -119,6 +129,14 @@
                 height: 150px;
                 
             
+             }
+
+             .botonPropiedades {
+
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+
              }
 
     }

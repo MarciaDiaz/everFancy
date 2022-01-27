@@ -116,13 +116,14 @@ footer {
       .propiedadesFondo .seccionSubtitulo .piedra p {
         height: 320px;
         width: auto;
-        text-align: justify;
+        justify-content: left;
         margin: 5px 30px;
         vertical-align: auto;
         top: 10px; }
     .propiedadesFondo .seccionSubtitulo .botonPropiedades {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-top: 5px; }
       .propiedadesFondo .seccionSubtitulo .botonPropiedades .btn {
         color: white;
         background-image: url(../imagenes/Fondorosa.jpg);
@@ -401,11 +402,22 @@ a {
       .propiedadesFondo .seccionSubtitulo img {
         height: 70px;
         width: 70px; }
-      .propiedadesFondo .seccionSubtitulo .piedra p {
-        height: auto;
-        width: auto; }
+      .propiedadesFondo .seccionSubtitulo .piedra {
+        border: solid black 1px;
+        margin: 2px; }
+        .propiedadesFondo .seccionSubtitulo .piedra p {
+          height: auto;
+          width: auto;
+          justify-content: left;
+          margin: 20px 30px;
+          vertical-align: auto;
+          top: 10px; }
     .propiedadesFondo .piedrasimagen {
-      height: 150px; } }
+      height: 150px; }
+    .propiedadesFondo .botonPropiedades {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px; } }
 
 /*----OTRAS TERAPIAS----*/
 @media screen and (max-width: 768px) {
